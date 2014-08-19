@@ -1,4 +1,7 @@
-adobe-webplatform.github.io
-===========================
+#Adobe Web Platform Team Website
 
-webplatform.adobe.com
+To run locally:
+
+```
+jekyll serve --watch --baseurl ''
+```
