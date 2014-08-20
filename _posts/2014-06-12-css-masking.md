@@ -5,15 +5,8 @@ categories: project
 description: Clip content with custom shapes and soft edges.
 thumb: project_header/css_masking_thumb.png
 full_image: project_header/css_masking.png
-bg: e6b494;
+bg: e6b494
 permalink: css-masking
-links:
-  - url: #
-    text: Spec
-  - url: #
-    text: CodePen
-  - url: #
-    text: Blog
 ---
 An h1 header
 ============

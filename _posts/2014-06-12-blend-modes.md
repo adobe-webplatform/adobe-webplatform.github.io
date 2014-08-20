@@ -7,13 +7,6 @@ thumb: project_header/blend_mode_thumb.png
 full_image: project_header/blend_mode.png
 permalink: blend-modes
 bg: EFDDF5
-links:
-  - url: #
-    text: Spec
-  - url: #
-    text: CodePen
-  - url: #
-    text: Blog
 ---
 #CSS Blend Modes Compositing
 

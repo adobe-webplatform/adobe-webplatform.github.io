@@ -5,15 +5,8 @@ categories: project
 description: Flow continuous content through arbitrary layout containers.
 thumb: project_header/css_regions_thumb.png
 full_image: project_header/css_regions.png
-bg: FFD577;
+bg: FFD577
 permalink: css-regions
-links:
-  - url: #
-    text: Spec
-  - url: #
-    text: CodePen
-  - url: #
-    text: Blog
 ---
 An h1 header
 ============

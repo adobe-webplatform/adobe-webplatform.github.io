@@ -7,13 +7,6 @@ thumb: project_header/pull_quote_thumb.png
 full_image: project_header/pull_quote.png
 permalink: pull-quotes
 bg: E2E1B9
-links:
-  - url: #
-    text: Survey
-  - url: #
-    text: Blog
-  - url: #
-    text: CodePen
 ---
 An h1 header
 ============

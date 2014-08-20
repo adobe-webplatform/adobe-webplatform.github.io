@@ -5,16 +5,8 @@ categories: project
 description: Customize how content wraps around a float's contour.
 thumb: project_header/css_shapes_thumb.png
 full_image: project_header/css_shapes.png
-bg: 67C9b6;
+bg: 67C9b6
 permalink: css-shapes
-links:
-  - url: #
-    text: Spec
-  - url: #
-    text: CodePen
-  - url: #
-    text: Blog
-  - url: #
 ---
 An h1 header
 ============
