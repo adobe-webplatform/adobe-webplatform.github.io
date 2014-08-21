@@ -1,5 +1,5 @@
 ---
-layout: project_page
+layout: page
 title:  "Blend Modes"
 categories: project
 description: Blend overlaying content colors using blend modes in CSS.

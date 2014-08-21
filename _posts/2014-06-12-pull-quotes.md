@@ -1,5 +1,5 @@
 ---
-layout: project_page
+layout: page
 title:  "Pull Quotes"
 categories: project
 description: How do you emphasize important snippets of your written content?

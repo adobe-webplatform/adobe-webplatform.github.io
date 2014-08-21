@@ -1,2 +1,0 @@
-(function(){$(function(){return $(window).scroll(function(c){var i,n,o;return o=$(window).scrollTop(),n=o/150,i=1-o/350,$(".bgimageblur").css("opacity",n),$(".site-header h1").css("opacity",i)})})}).call(this);
-//# sourceMappingURL=./main.map

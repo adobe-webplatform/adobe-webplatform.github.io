@@ -1,5 +1,5 @@
 ---
-layout: project_page
+layout: page
 title:  "CSS Shapes"
 categories: project
 description: Customize how content wraps around a float's contour.

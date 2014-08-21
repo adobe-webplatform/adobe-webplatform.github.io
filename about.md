@@ -1,9 +1,8 @@
 ---
-layout: project_page
+layout: page
 title: About
 permalink: /about/
 bg: da727e
-full_image: transparent_full.png
 ---
 
 ## About the Web Platform Team at Adobe

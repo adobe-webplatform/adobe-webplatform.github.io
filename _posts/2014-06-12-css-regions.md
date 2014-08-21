@@ -1,5 +1,5 @@
 ---
-layout: project_page
+layout: page
 title:  "CSS Regions"
 categories: project
 description: Flow continuous content through arbitrary layout containers.

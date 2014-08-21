@@ -1,5 +1,5 @@
 ---
-layout: project_page
+layout: page
 title:  "CSS Masking"
 categories: project
 description: Clip content with custom shapes and soft edges.

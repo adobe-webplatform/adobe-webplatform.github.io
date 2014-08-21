@@ -1,9 +1,8 @@
 ---
-layout: project_page
+layout: page
 title: Enable
 permalink: /enable/
 bg: da727e
-full_image: transparent_full.png
 ---
 
 [pull-quotes]: {{ site.baseurl }}/pull-quotes/ "Pull Quotes"
