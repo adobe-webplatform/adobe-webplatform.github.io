@@ -12,6 +12,7 @@ bg: da727e
 [css-masking]: {{ site.baseurl }}/css-masking/ "CSS Masking"
 [captions]: {{ site.baseurl }}/captions/ "Captions"
 [blend-modes]: {{ site.baseurl }}/blend-modes/ "Blend Modes"
+[filter-effects]: {{ site.baseurl }}/filter-effects/ "Filter Effects"
 
 ## Enable Cutting-Edge Graphical &amp; Layout Features
 
