@@ -46,8 +46,11 @@ html, body { width: 100%; height: 100%; }
   padding: 75px 0 50px;
   position: relative;
   z-index: 2;
+  /* hardware accelerate for smooth paint while device scrolling */
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
+  /* prevent content overflow from causing side-scroll */
+  overflow: hidden;
 }
 
 .wrap {
@@ -65,8 +68,16 @@ html, body { width: 100%; height: 100%; }
 }
 
 .posts {
-  margin-top: 40px;
-  text-align: center;
+  margin: 40px auto 0 auto;
+  text-align: left;
+  width: 945px;
+  max-width: 100%;
+  @media screen and (max-width: 945px) {
+    width: 630px;
+  }
+  @media screen and (max-width: 630px) {
+    width: 315px;
+  }
 }
 
 .post {
@@ -236,6 +247,6 @@ a {
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    background-image: url('../img/adobe_office.jpg');
+    background-image: url('../img/adobe_office_blurred.jpg');
   }
 }
