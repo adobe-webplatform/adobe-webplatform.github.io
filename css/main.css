@@ -63,7 +63,8 @@ html, body {
   margin: 40px auto 0 auto;
   text-align: left;
   width: 945px;
-  max-width: 100%; }
+  max-width: 100%;
+  /* center align the posts, leaving a couple extra pixels */ }
   @media screen and (max-width: 945px) {
     .posts {
       width: 630px; } }
@@ -119,7 +120,8 @@ body {
 .header.page h1 {
   text-align: center; }
 .header.home h1 {
-  position: absolute; }
+  position: absolute;
+  opacity: 0.9; }
   .header.home h1.top {
     bottom: 50%;
     margin-bottom: 3rem; }
