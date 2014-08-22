@@ -36,6 +36,8 @@ html, body { width: 100%; height: 100%; }
     padding: 40px 0 60px;
     position: relative;
     z-index: 2;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
     h3 { width: 100px; }
 }
 
@@ -44,6 +46,8 @@ html, body { width: 100%; height: 100%; }
   padding: 75px 0 50px;
   position: relative;
   z-index: 2;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
 }
 
 .wrap {
@@ -151,6 +155,8 @@ h3 {
 
 h4 {
   font-size: 1.4rem;
+  font-weight: normal;
+  font-style: italic;
   margin-bottom: 1rem;
 }
 
@@ -165,6 +171,10 @@ p {
   font-size: 1.25rem;
   margin-bottom: 1rem;
   line-height: 2rem;
+}
+
+ul, ol {
+  margin-bottom: 1rem;
 }
 
 .footer {
