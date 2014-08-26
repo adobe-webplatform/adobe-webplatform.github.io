@@ -12,7 +12,7 @@ bg: e38268
 
 ##What is it?
 
-Blur, Grayscale, Drop Shadow&mdash;
+Blur, Grayscale, Drop Shadow &mdash;
 
 You've used these in Photoshop. Now, you can filter content directly in the browser.
 
