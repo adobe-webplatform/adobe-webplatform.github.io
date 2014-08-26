@@ -30,27 +30,27 @@ Or it can be a polygon you draw yourself.
 <figure>
   <img src="/img/shapes/caption-demo-screenshot.png" alt="Wrapping Around a Curve"></img>
   <figcaption>
-    Content flowing around an image curve. You can use a <a href="http://caniuse.com/#feat=css-shapes">shapes-enabled browser</a> to view this <a href="http://codepen.io/adobe/full/Brtdz">demo</a> on CodePen.
+    Content flowing around an image curve. You can use a <a href="http://caniuse.com/#feat=css-shapes" target="_blank">shapes-enabled browser</a> to view this <a href="http://codepen.io/adobe/full/Brtdz">demo</a> on CodePen.
   </figcaption>
 </figure>
 
 Further steps may include wrapping content inside a shape, 
-or adding a shape to an [exclusion](http://dev.w3.org/csswg/css-exclusions/). 
+or adding a shape to an [exclusion](http://dev.w3.org/csswg/css-exclusions/){:target="_blank"}. 
 Some of the ways shapes are defined is also used 
-in [clip-path](http://dev.w3.org/fxtf/css-masking-1/#the-clip-path). 
+in [clip-path](http://dev.w3.org/fxtf/css-masking-1/#the-clip-path){:target="_blank"}. 
 Other ways of using shapes will almost certainly be discovered. 
-Ideas for future work are currently being collected in the [level 2 specification](http://dev.w3.org/csswg/css-shapes-2/).
+Ideas for future work are currently being collected in the [level 2 specification](http://dev.w3.org/csswg/css-shapes-2/){:target="_blank"}.
 
 ##When can I use it?
 
 CSS Shapes for floats is implemented in WebKit and Blink.  
-It is [available](http://caniuse.com/#feat=css-shapes) in Chrome 37, and will be available in Safari 8 (and older Safari dot releases once iOS8/Mavericks ships). 
-The [level 1 specification](http://dev.w3.org/csswg/css-shapes/) 
-is a [Candidate Recommendation](http://www.w3.org/Consortium/Process/Process-19991111/tr.html#RecsCR) 
-at the [W3C](http://www.w3.org/), so other browsers are encouraged to implement shapes on floats as soon as they can.
+It is [available](http://caniuse.com/#feat=css-shapes){:target="_blank"} in Chrome 37, and will be available in Safari 8 (and older Safari dot releases once iOS8/Mavericks ships). 
+The [level 1 specification](http://dev.w3.org/csswg/css-shapes/){:target="_blank"} 
+is a [Candidate Recommendation](http://www.w3.org/Consortium/Process/Process-19991111/tr.html#RecsCR){:target="_blank"} 
+at the [W3C](http://www.w3.org/){:target="_blank"}, so other browsers are encouraged to implement shapes on floats as soon as they can.
 
 ##Where can I learn more?
 
   * We have posted several [articles](http://blogs.adobe.com/webplatform/category/features/css-shapes/) on our blog.
-  * [Sara Soueidan](http://twitter.com/SaraSoueidan) has written [several](http://alistapart.com/article/css-shapes-101) [articles](http://alistapart.com/blog/post/moving-forward-with-css-shapes/) on [shapes](http://sarasoueidan.com/blog/css-shapes/). 
-  * [Patrick Catanzariti](http://www.sitepoint.com/author/pcatanzariti/) has written a thorough [introduction](http://www.sitepoint.com/css-shapes-breaking-rectangular-design/)
+  * [Sara Soueidan](http://twitter.com/SaraSoueidan){:target="_blank"} has written [several](http://alistapart.com/article/css-shapes-101){:target="_blank"} [articles](http://alistapart.com/blog/post/moving-forward-with-css-shapes/){:target="_blank"} on [shapes](http://sarasoueidan.com/blog/css-shapes/){:target="_blank"}. 
+  * [Patrick Catanzariti](http://www.sitepoint.com/author/pcatanzariti/){:target="_blank"} has written a thorough [introduction](http://www.sitepoint.com/css-shapes-breaking-rectangular-design/){:target="_blank"}
