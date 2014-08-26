@@ -21,7 +21,7 @@
 	@keyframes translate-box {
 		0% { transform: translate3d(150px, 150px, 0); }
 		25% { transform: translate3d(550px, 150px, 0); }
-		50% { transform: translate3d(700px, 550px, 0); }
+		50% { transform: translate3d(550px, 400px, 0); }
 		75% { transform: translate3d(150px, 400px, 0); }
 		100% { transform: translate3d(150px, 150px, 0); }
 	}
