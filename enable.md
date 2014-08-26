@@ -39,7 +39,7 @@ Features are enabled by default on Desktop Safari 7 and do not require a flag.
 
 ### WebKit Nightly
 
-WebKit Nightly builds can be downloaded from the [WebKit Nightly page](http://nightly.webkit.org/). Features are enabled by default and do not require a flag.
+WebKit Nightly builds can be downloaded from the [WebKit Nightly page](http://nightly.webkit.org/){:target="_blank"}. Features are enabled by default and do not require a flag.
 
 #### Features Available
 * [Shapes][css-shapes]
@@ -50,7 +50,7 @@ WebKit Nightly builds can be downloaded from the [WebKit Nightly page](http://ni
 
 ### Chrome
 
-Chrome can be downloaded from the [Google Chrome page](https://www.google.com/intl/en/chrome/browser/).
+Chrome can be downloaded from the [Google Chrome page](https://www.google.com/intl/en/chrome/browser/){:target="_blank"}.
 
 #### Features Available
 * [Shapes][css-shapes]
@@ -59,7 +59,7 @@ Chrome can be downloaded from the [Google Chrome page](https://www.google.com/in
 * [CSS Masking][css-masking]
 
 #### To enable Shapes and Blend Modes
-1. Copy and paste `chrome://flags/#enable-experimental-web-platform-features` into the address bar, the press enter.
+1. Copy and paste `chrome://flags/#enable-experimental-web-platform-features` into the address bar, then press enter.
 2. Click the 'Enable' link within that section.
 3. Click the 'Relaunch Now' button at the bottom of the browser window.
 
@@ -67,7 +67,7 @@ Chrome can be downloaded from the [Google Chrome page](https://www.google.com/in
 
 ### Chrome Canary
 
-Chrome Canary builds can be downloaded from the [Google Chrome Canary page](https://www.google.com/intl/en/chrome/browser/canary.html).
+Chrome Canary builds can be downloaded from the [Google Chrome Canary page](https://www.google.com/intl/en/chrome/browser/canary.html){:target="_blank"}.
 
 #### Features Available
 * [Shapes][css-shapes]
@@ -76,7 +76,7 @@ Chrome Canary builds can be downloaded from the [Google Chrome Canary page](http
 * [CSS Masking][css-masking]
 
 #### To enable Shapes and Blend Modes
-1. Copy and paste `chrome://flags/#enable-experimental-web-platform-features` into the address bar, the press enter.
+1. Copy and paste `chrome://flags/#enable-experimental-web-platform-features` into the address bar, then press enter.
 2. Click the 'Enable' link within that section.
 3. Click the 'Relaunch Now' button at the bottom of the browser window.
 
@@ -84,14 +84,14 @@ Chrome Canary builds can be downloaded from the [Google Chrome Canary page](http
 
 ### Firefox
 
-Firefox can be downloaded from the [Firefox download page](http://www.mozilla.org/en-US/firefox/new/). Features are enabled by default and do not require a flag.
+Firefox can be downloaded from the [Firefox download page](http://www.mozilla.org/en-US/firefox/new/){:target="_blank"}. Features are enabled by default and do not require a flag.
 
 #### Features Available
 * [Canvas Blend Modes][blend-modes]
 
 ### Opera
 
-Opera can be downloaded from the [Opera home page](http://www.opera.com/).
+Opera can be downloaded from the [Opera home page](http://www.opera.com/){:target="_blank"}.
 
 #### Features Available (requires Opera version 17+)
 
@@ -101,7 +101,7 @@ Opera can be downloaded from the [Opera home page](http://www.opera.com/).
 * [CSS Masking][css-masking]
 
 #### To enable Shapes and Blend Modes
-1. Copy and paste `opera://flags/#enable-experimental-web-platform-features` into the address bar, the press enter.
+1. Copy and paste `opera://flags/#enable-experimental-web-platform-features` into the address bar, then press enter.
 2. Click the 'Enable' link within that section.
 3. Click the 'Relaunch Now' button at the bottom of the browser window.
 
