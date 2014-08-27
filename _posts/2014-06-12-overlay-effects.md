@@ -13,7 +13,7 @@ bg: acd5e1
 ##What is it?
 
 A very popular design trend on the web in recent years has been various forms of overlay
-effects where text is is overlaid on a large image or video background. A number of different
+effects where text is overlaid on a large image or video background. A number of different
 techniques can be used to create contrast between the content and the graphics to
 achieve various effects. Historically, many of these effects have been applied directly to
 the images to give designers complete control of how their assets appear. However, as the web
@@ -37,10 +37,6 @@ part of areas of the page.
   </figcaption>
 </figure>
 
-#### Methods
-TODO
-
-
 ####Transparency Overlay
 Another widely used technique for overlaying content is to place it on a design element that
 is partially transparent. This is commonly done with shades of black, gray, or white to achieve
@@ -56,12 +52,8 @@ the best contrast, but more vibrant colors can be used as well.
   </figcaption>
 </figure>
 
-
-#### Methods
-TODO
-
 ####Tinted Images
-Color can also be used to set content apart from its background. You can effectively incorporate
+Color can be used to set content apart from its background. You can effectively incorporate
 your design's color palette by tinting an image with a single color and
 overlaying content in different colors that contrast well with the background.
 
@@ -75,11 +67,6 @@ overlaying content in different colors that contrast well with the background.
      the interactive elements and text in this design accentuated.
   </figcaption>
 </figure>
-
-
-
-#### Methods
-TODO
 
 ####Gradient Fade
 
@@ -96,9 +83,6 @@ overlays, this is commonly done with shades of black, gray, or white.
   </figcaption>
 </figure>
 
-#### Methods
-TODO
-
 ####Frosted Glass
 
 The frosted glass technique is a distinctive characteristic of some major
@@ -109,14 +93,14 @@ tinting, and transparency to create a more dramatic contrast.
 
 Recently, the frosted glass effect got a little easier with
 [CSS Filters][filters-tutorial]{:target="_blank"}. Prior to CSS Filters, this was
-typically done with two versions of the same image blurred version and the original
-version and with many other CSS properties to create the effect. Now, with CSS Filters,
-the process is greatly simplified and requires only one copy of the image to which you
-can apply as many filter functions as you need for the desired effect. For an in-depth
+typically done with two versions of the same image<em>a blurred version and the original
+version</em>and with many other CSS properties to create the effect. Now, CSS Filters
+greatly simplifies that the process. Only one copy of the image is required. You then
+apply as many filter functions as you need for the desired effect.  For an in-depth
 walkthrough of creating this effect both with and without CSS Filters, check out the
 CSS Tricks article [Frosting Glass with CSS Filters][css-tricks]{:target="_blank"}.
 To learn about all of the other cool things you can do with CSS &amp; Filters and the
-Adobe Web Platform team is doing in this area, check out out our
+Adobe Web Platform team is doing in this area, check out our
 [Filter Effects project page][filters].
 
 <figure>
@@ -129,34 +113,42 @@ Adobe Web Platform team is doing in this area, check out out our
   </figcaption>
 </figure>
 
-
-#### Methods
-TODO
-
-
 ##What's being done to make Overlay Effects better?
 
-We've observed there are many different ways to achieve these effects. We
-have also noticed that a lot of them are still being achieved by editing
-images directly rather than using CSS and HTML. We wondered if this was
-an indicator that the web technologies were still not meeting the needs of
-designers who are concerned with design fidelity. We decided to spend
-some time researching this and interviewed many designers and developers
-to find out how they achieve these techniques and what challenges, if any,
-they face in creating them.
+We've observed there are many different ways to achieve these effects. Also,
+a lot of effects are still achieved by editing images directly, rather than
+using CSS and HTML We wondered if this was an indicator that the web technologies
+were still not meeting the needs of designers who are concerned with design
+fidelity. We decided to spend some time researching this and interviewed many
+designers and developers to find out how they achieve these techniques and what
+challenges, if any, they face in creating them.
 
 To our surprise, we found that people were generally content with the
 methods available to them for creating Overlay Effects.  The people we
-spoke to either found no real challenges achieve the desired effects or
+spoke to either found no real challenges to achieve the desired effects or
 specifically avoided using some of them due to perceived overuse and
 trendiness.  Read more about our research in this area on our blog:
 [Lean Experiment: Overlay Effects][blog].
 
 
-f you have opinions or input on this topic, please let us know by taking a
+If you have opinions or input on this topic, please let us know by taking a
 few minutes to complete our [quick survey][survey]{:target="_blank"}. If we
 gather more information to cause us to revisit this, we can then contact you
 to discuss your ideas further.
+
+## Where can I learn more?
+
+There are some great tutorials on the web where you can learn how to create
+these effects in your designs.
+
+
+[Creating a Soft Blur Effect with CSS Filters][image-blur]{:target="_blank"}
+<br/>
+[CSS Tricks: Text Blocks Over Image][transparency-overlay]{:target="_blank"} (Transparency Overlays)
+<br/>
+[Image Tint With CSS][image-tint]{:target="_blank"}
+<br/>
+[CodePen: Background Image Gradient Overlay][gradient-fade]
 
 
 
@@ -167,3 +159,8 @@ to discuss your ideas further.
 [win7]: http://www.programering.com/a/MDO1IDMwATM.html
 [ios]: http://ionicframework.com/demos/frosted-glass/
 [survey]: https://adobeweb.typeform.com/to/mz6Jtj?s=B0709
+[image-tint]: http://www.impressivewebs.com/image-tint-blend-css/
+[image-blur]: http://blattchat.com/2013/05/17/creating-a-soft-blur-effect/
+[transparency-overlay]: http://css-tricks.com/text-blocks-over-image/
+[gradient-fade]: http://codepen.io/alexcarpenter/pen/LveDx
+
