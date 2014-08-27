@@ -16,9 +16,7 @@ html, body { width: 100%; height: 100%; }
     max-height: 800px;
   }
   &.page {
-    max-height: 650px; /* non-calc fallback */
-    max-height: calc(550px + 6.5rem);
-    padding-bottom: 6.5rem;
+    max-height: 550px;
     &.small {
       max-height: 350px;
     }
@@ -26,6 +24,7 @@ html, body { width: 100%; height: 100%; }
   .hero {
     width: 100%;
     height: 100%;
+    margin-bottom: -7.5rem;
   }
   &.fixed {
     position: fixed;
@@ -116,13 +115,11 @@ img {
   height: auto;
 }
 
-figure {
-  margin: 2rem 0;
-}
-
-/* Typography */
+/* Typography & Vertical Spacing */
 body {
   font-family: "source-sans-pro", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.44;
 }
 
 .header {
@@ -138,56 +135,53 @@ body {
   &.page h1 { text-align: center; }
   &.home h1 {
     position: absolute;
-    opacity: 0.9;
     &.top {
       bottom: 50%;
       margin-bottom: 3rem;
     }
     &.bottom {
-      color: #fff;
       top: 50%;
       margin-top: 1rem;
     }
   }
 }
 
+h1, h2, h3, h4, h5, h6 {
+  margin: 1rem 0;
+  line-height: 1;
+}
+
+p, code, pre, blockquote {
+  margin: 1rem 0;
+}
+
+figure, iframe {
+  margin: 2rem 0;
+}
+
+ol, ul {
+  margin: 1rem 3rem;
+  &.flush {
+    list-style: none;
+    margin: 1rem 0;
+    line-height: 1;
+  }
+}
+
 h1 {
   font-size: 3rem;
-  margin-bottom: 2rem;
 }
 
 h2 {
   font-size: 2rem;
-  margin-bottom: 1rem;
 }
 
 h3 {
   font-size: 1.6rem;
-  margin-bottom: 1rem;
 }
 
 h4 {
   font-size: 1.4rem;
-  font-weight: normal;
-  font-style: italic;
-  margin-bottom: 1rem;
-}
-
-.page h2 {
-  font-weight: normal;
-  font-style: italic;
-}
-
-.post h2 { text-align: center; }
-
-p {
-  font-size: 1.25rem;
-  margin-bottom: 1rem;
-  line-height: 2rem;
-}
-
-ul, ol {
-  margin-bottom: 1rem;
 }
 
 .footer {
@@ -199,18 +193,18 @@ ul, ol {
   }
 }
 
+.post {
+  text-align: center;
+}
+
 /* Color & Decoration */
 body {
-  color: #4D4D4D;
+  color: #333;
   -webkit-font-smoothing: antialiased;
 }
 
 .content {
   background-color: #fff;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color: #1a1a1a;
 }
 
 a {
@@ -226,6 +220,19 @@ a {
   text-decoration: none;
 }
 
+.header {
+  &.home h1 {
+    opacity: 0.9;
+    &.top { color: black; }
+    &.bottom { color: white; }
+  }
+
+  &.page h1 {
+    color: white;
+    text-shadow: 2px 2px 2px #333;
+  }
+}
+
 .footer {
   background: #1a1a1a;
   color: white;
@@ -239,6 +246,14 @@ a {
     font-size: 0.875rem;
     text-decoration: none;
   }
+}
+
+$postbg: #eae9e5;
+
+.post {
+  background: $postbg;
+  background: linear-gradient($postbg, $postbg), url(/img/halftone.png);
+  background-blend-mode: multiply;
 }
 
 /* Images & Background Images */

@@ -6,8 +6,8 @@ layout: home
 
   <div class="posts">
     {% for post in site.posts %}
-      <article class="post" style="background-image: url(img/{{ post.thumb }}); background-color: #{{post.bg}};">
-        <a href="{{site.baseurl}}{{post.url}}"></a>
+      <article class="post">
+        <a href="{{site.baseurl}}{{post.url}}" style="background-image: url(img/{{ post.thumb }});"></a>
         <h2><a href="{{post.url}}">{{ post.title }}</a></h2>
       </article>
     {% endfor %}
