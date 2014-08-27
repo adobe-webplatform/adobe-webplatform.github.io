@@ -148,7 +148,7 @@ these effects in your designs.
 <br/>
 [Image Tint With CSS][image-tint]{:target="_blank"}
 <br/>
-[CodePen: Background Image Gradient Overlay][gradient-fade]
+[CodePen: Background Image Gradient Overlay][gradient-fade]{:target="_blank"}
 
 
 
