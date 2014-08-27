@@ -17,17 +17,19 @@ html, body {
     .header.home .logo {
       float: left;
       height: 7.2rem;
-      width: auto;
+      max-width: 8.15rem;
+      /* fix buggy width: auto behavior */
       margin: 0 1.6rem 1rem 0; }
-      @media screen and (min-width: 515px) {
+      @media screen and (min-width: 515px) and (min-height: 570px) {
         .header.home .logo {
-          height: 14.4rem; } }
+          height: 14.4rem;
+          max-width: 16.3rem; } }
     .header.home h1 {
       float: left;
       font-size: 3rem;
       line-height: .8;
       margin: 0; }
-      @media screen and (min-width: 515px) {
+      @media screen and (min-width: 515px) and (min-height: 570px) {
         .header.home h1 {
           font-size: 6rem; } }
     .header.home ::after {
