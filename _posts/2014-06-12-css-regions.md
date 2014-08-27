@@ -11,6 +11,7 @@ permalink: css-regions
 #CSS Regions
 
 ##What is it?
+
 With regions, you can use CSS properties to flow content into existing styled containers, regardless of their dimension or position on the page. Using regions, you can create visually appealing responsive layouts both for mobile and desktop content as shown in the "Orphaned Elephants" demo below.
 
 <figure>
@@ -23,6 +24,7 @@ With regions, you can use CSS properties to flow content into existing styled co
 The Adobe Web Platform team is contributing to the [CSS Regions Module Level 1](http://dev.w3.org/csswg/css-regions/){:target="_blank"} specification as well as the implementation in WebKit.
 
 ##When can i use it?
+
 Now in Safari on both OS X and iOS and also in Internet Explorer on Windows. In unsupported browsers you can use Francois Remy's [CSS Regions polyfill](https://github.com/FremyCompany/css-regions-polyfill/){:target="_blank"}.
 
 For a view of current and upcoming browser support, check out [caniuse.com](http://caniuse.com/#search=regions){:target="_blank"}.
