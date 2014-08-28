@@ -6,6 +6,12 @@
 <body class='page'>
 
 <header class="header page {% if page.full_image == null %}small{% endif %}">
+    <a href='/' class='home-nav'><svg class='logo' version="1.1" xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 130 115" enable-background="new 0 0 130 115" xml:space="preserve">
+        <polygon points="81.9,0 130,0 130,115.1 "/>
+        <polygon points="48.1,0 0,0 0,115.1 "/>
+        <polygon points="65,42.4 95.6,115 75.6,115 66.4,91.9 44,91.9 "/>
+    </svg></a>
     <div class="header page fixed {% if page.full_image == null %}small{% endif %}" style="background: #{{page.bg}}; background: linear-gradient(#{{page.bg}}, #{{page.bg}}), url(/img/halftone.png); background-blend-mode: multiply;">
         <div class='hero' style='{% if page.full_image %}background: url({{site.baseurl}}/img/{{page.full_image}}) no-repeat center center; background-size: contain;{% endif %}'></div>
         <h1>{{page.title}}</h1>
