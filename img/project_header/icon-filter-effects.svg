@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 300 200" style="enable-background:new 0 0 300 200;" xml:space="preserve">
+<g id="Filter_Effects">
+	<g>
+		<rect x="97" y="45" style="fill:#445A79;" width="106" height="79"/>
+		<ellipse style="fill:#FFD577;" cx="171.879" cy="67.385" rx="7.044" ry="6.996"/>
+		<polygon style="fill:#67BFA2;" points="109.226,114 135.612,78.237 159.915,102.079 173.108,91.488 192.898,114 		"/>
+	</g>
+	<g>
+		<defs>
+			<polygon id="SVGID_1_" points="97,124 115,124 194,45 97,45 			"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g style="clip-path:url(#SVGID_2_);">
+			<rect x="97" y="45" style="fill:#555555;" width="106" height="79"/>
+			<ellipse style="fill:#ECEDED;" cx="171.879" cy="67.385" rx="7.044" ry="6.996"/>
+			<polygon style="fill:#ECEDED;" points="109.226,114 135.612,78.237 159.915,102.079 173.108,91.488 192.898,114 			"/>
+		</g>
+	</g>
+</g>
+<g id="Layer_1">
+</g>
+</svg>

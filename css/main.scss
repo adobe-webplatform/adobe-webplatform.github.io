@@ -5,14 +5,13 @@
  * * Images & Background Images
  */
 
-@mixin halftone($background) {
-  background: $background, url(/img/halftone.png);
-  background-blend-mode: multiply;
-}
-
-@mixin halftoneColor($color) {
+@mixin halftone($color, $image: 'inherit') {
   background: $color;
-  background: linear-gradient($color, $color), url(/img/halftone.png);
+  @if $image != 'inherit' {
+    background: url($image), url('/img/halftone.png');
+  } @else {
+    background: linear-gradient($color, $color), url('/img/halftone.png');
+  }
   background-blend-mode: multiply;
 }
 
@@ -275,7 +274,5 @@ a {
 /* Images & Background Images */
 
 .header.home {
-  background: $offbgcolor;
-  background: url(/img/trianglify-background.svg), url(/img/halftone.png);
-  background-blend-mode: multiply;
+  @include halftone($offbgcolor, '/img/trianglify-background.svg')
 }

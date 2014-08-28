@@ -210,5 +210,5 @@ a {
 /* Images & Background Images */
 .header.home {
   background: #eae9e5;
-  background: url(/img/trianglify-background.svg), url(/img/halftone.png);
+  background: url("/img/trianglify-background.svg"), url("/img/halftone.png");
   background-blend-mode: multiply; }
