@@ -1,30 +1,27 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 300 200" style="enable-background:new 0 0 300 200;" xml:space="preserve">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+     viewBox="0 0 300 200" style="enable-background:new 0 0 300 200;" xml:space="preserve">
 <g id="Overlay_Effects">
-	<path style="fill:#e38268;" d="M97,45v79h106V45H97z M171.879,60.39c3.89,0,7.044,3.132,7.044,6.996
-		c0,3.864-3.154,6.996-7.044,6.996c-3.89,0-7.044-3.132-7.044-6.996C164.835,63.521,167.989,60.39,171.879,60.39z M109.226,114
-		l26.386-35.763l24.303,23.842l13.193-10.591L192.898,114H109.226z"/>
-	<g>
-		<defs>
-			<rect id="SVGID_1_" x="126.962" y="67.949" width="76.038" height="56.051"/>
-		</defs>
-		<clipPath id="SVGID_2_">
-			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
-		</clipPath>
-		<g style="clip-path:url(#SVGID_2_);">
-			<rect x="96.593" y="45" style="fill:#445A79;" width="106.407" height="79"/>
-			<path style="fill:#3c3e58;" d="M97,45v79h106V45H97z M171.879,60.39c3.89,0,7.044,3.132,7.044,6.996
-				c0,3.864-3.154,6.996-7.044,6.996c-3.89,0-7.044-3.132-7.044-6.996C164.835,63.521,167.989,60.39,171.879,60.39z M109.226,114
-				l26.386-35.763l24.303,23.842l13.193-10.591L192.898,114H109.226z"/>
-		</g>
-	</g>
-	<rect x="137" y="76" style="fill:#ECEDED;" width="48" height="4"/>
-	<rect x="137" y="85" style="fill:#ECEDED;" width="52" height="4"/>
-	<rect x="137" y="94" style="fill:#ECEDED;" width="45" height="4"/>
-	<rect x="137" y="103" style="fill:#ECEDED;" width="52" height="4"/>
-	<rect x="137" y="112" style="fill:#ECEDED;" width="49" height="4"/>
+    <path style="fill:#E38268;" d="M97,45v79h106V45H97z M171.867,60.388c3.873,0,7.06,3.136,7.06,7.008s-3.138,7.008-7.06,7.008
+        c-3.922,0-7.06-3.136-7.06-7.008C164.856,63.525,167.994,60.388,171.867,60.388z M109.208,114.002l26.377-35.775l24.318,23.818
+        l13.189-10.586l19.808,22.494h-83.692V114.002z"/>
+    <g style="opacity:0.85;">
+        <defs>
+            <rect id="SVGID_1_" x="97" y="84.549" style="opacity:0.85;" width="106" height="39.451"/>
+        </defs>
+        <clipPath id="SVGID_2_">
+            <use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+        </clipPath>
+        <g style="clip-path:url(#SVGID_2_);">
+            <rect x="96.559" y="45" style="fill:#445A79;" width="106.441" height="79"/>
+            <path style="fill:#3C3E58;" d="M97,45v79h106V45H97z M171.867,60.388c3.873,0,7.06,3.136,7.06,7.008s-3.138,7.008-7.06,7.008
+                c-3.922,0-7.06-3.136-7.06-7.008C164.856,63.525,167.994,60.388,171.867,60.388z M109.208,114.002l26.377-35.775l24.318,23.818
+                l13.189-10.586l19.808,22.494h-83.692V114.002z"/>
+        </g>
+    </g>
+    <rect x="128" y="93" style="fill:#ECEDED;" width="45.008" height="4"/>
+    <rect x="124" y="102" style="fill:#ECEDED;" width="52" height="4"/>
+    <rect x="126" y="111" style="fill:#ECEDED;" width="49" height="4"/>
 </g>
 </svg>

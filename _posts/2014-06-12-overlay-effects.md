@@ -3,8 +3,8 @@ layout: page
 title:  "Overlay Effects"
 categories: project
 description: How do you guarantee your content effectively contrasts with its background?
-thumb: project_header/overlay-thumb.png
-full_image: project_header/overlay.png
+thumb: project_header/icon-overlay-effects.svg
+full_image: project_header/icon-overlay-effects.svg
 permalink: overlay-effects
 bg: acd5e1
 ---

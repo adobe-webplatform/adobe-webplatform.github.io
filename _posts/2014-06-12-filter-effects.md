@@ -3,8 +3,8 @@ layout: page
 title:  "Filter Effects"
 categories: project
 description: Filter content with a variety of visual effects.
-thumb: project_header/filter_effects_thumb.png
-full_image: project_header/filter_effects.png
+thumb: project_header/icon-filter-effects.svg
+full_image: project_header/icon-filter-effects.svg
 permalink: filter-effects
 bg: e38268
 ---
