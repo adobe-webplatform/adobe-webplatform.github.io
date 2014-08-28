@@ -143,6 +143,10 @@ p, code, pre, blockquote {
 figure, iframe {
   margin: 2rem 0; }
 
+figcaption {
+  font-size: 1rem;
+  font-style: italic; }
+
 ol, ul {
   margin: 1rem 3rem; }
   ol.flush, ul.flush {
