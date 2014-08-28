@@ -5,6 +5,17 @@
  * * Images & Background Images
  */
 
+@mixin halftone($background) {
+  background: $background, url(/img/halftone.png);
+  background-blend-mode: multiply;
+}
+
+@mixin halftoneColor($color) {
+  background: $color;
+  background: linear-gradient($color, $color), url(/img/halftone.png);
+  background-blend-mode: multiply;
+}
+
 /* Layout */
 html, body { width: 100%; height: 100%; }
 
