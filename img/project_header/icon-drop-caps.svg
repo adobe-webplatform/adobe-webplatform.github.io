@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 300 200" style="enable-background:new 0 0 300 200;" xml:space="preserve">
+     viewBox="0 0 300 200" style="enable-background:new 0 0 300 200;" xml:space="preserve">
 <g id="Drop_Caps">
-	<rect x="137" y="45" style="fill:#AC6C82;" width="50" height="7"/>
-	<rect x="137" y="57" style="fill:#AC6C82;" width="58" height="7"/>
-	<rect x="137" y="69" style="fill:#AC6C82;" width="63" height="7"/>
-	<rect x="104" y="81" style="fill:#AC6C82;" width="81" height="7"/>
-	<rect x="104" y="93" style="fill:#AC6C82;" width="89" height="7"/>
-	<rect x="104" y="105" style="fill:#AC6C82;" width="74" height="7"/>
-	<rect x="104" y="116" style="fill:#AC6C82;" width="87" height="7"/>
-	<path style="fill:#455C7B;" d="M122.946,69.873h-8.841l-1.555,6.704H104L113.619,45h10.105l9.619,31.577h-8.842L122.946,69.873z"/>
+    <rect x="137" y="45" style="fill:#AC6C82;" width="50" height="7"/>
+    <rect x="137" y="57" style="fill:#AC6C82;" width="58" height="7"/>
+    <rect x="137" y="69" style="fill:#AC6C82;" width="63" height="7"/>
+    <rect x="104" y="81" style="fill:#AC6C82;" width="81" height="7"/>
+    <rect x="104" y="93" style="fill:#AC6C82;" width="89" height="7"/>
+    <rect x="104" y="105" style="fill:#AC6C82;" width="74" height="7"/>
+    <rect x="104" y="116" style="fill:#AC6C82;" width="87" height="7"/>
+    <path style="fill:#455C7B;" d="M122.946,69.873h-8.841l-1.555,6.704H104L113.619,45h10.105l9.619,31.577h-8.842L122.946,69.873z"/>
 </g>
 </svg>

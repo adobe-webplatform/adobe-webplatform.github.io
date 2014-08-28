@@ -1,27 +1,26 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<!-- Generator: Adobe Illustrator 18.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 300 200" style="enable-background:new 0 0 300 200;" xml:space="preserve">
+     viewBox="0 0 300 200" style="enable-background:new 0 0 300 200;" xml:space="preserve">
 <g id="Regions">
-	<rect x="161" y="74" style="fill:#BF6060;" width="51" height="4"/>
-	<rect x="161" y="81" style="fill:#BF6060;" width="53" height="4"/>
-	<rect x="161" y="88" style="fill:#BF6060;" width="49" height="4"/>
-	<rect x="161" y="95" style="fill:#BF6060;" width="51" height="4"/>
-	<rect x="161" y="102" style="fill:#BF6060;" width="47" height="4"/>
-	<rect x="161" y="109" style="fill:#BF6060;" width="51" height="4"/>
-	<rect x="167" y="116" style="fill:#BF6060;" width="34" height="4"/>
-	<rect x="88" y="48" style="fill:#BF6060;" width="44" height="4"/>
-	<rect x="88" y="55" style="fill:#BF6060;" width="47" height="4"/>
-	<rect x="88" y="62" style="fill:#BF6060;" width="54" height="4"/>
-	<rect x="88" y="69" style="fill:#BF6060;" width="47" height="4"/>
-	<rect x="88" y="76" style="fill:#BF6060;" width="47" height="4"/>
-	<rect x="88" y="83" style="fill:#BF6060;" width="44" height="4"/>
-	<rect x="88" y="90" style="fill:#BF6060;" width="53" height="4"/>
-	<rect x="161" y="67" style="fill:#BF6060;" width="51" height="4"/>
-	<rect x="88" y="97" style="fill:#BF6060;" width="53" height="4"/>
-	<polygon style="fill:#67BFA2;" points="151.5,108.5 110.5,108.5 110.5,102 113.5,102 113.5,105.5 148.5,105.5 148.5,62.5
-		187.5,62.5 187.5,71.097 184.5,71.097 184.5,65.5 151.5,65.5"/>
-	<polygon style="fill:#67BFA2;" points="179.119,69.083 186,81 192.881,69.083"/>
+    <rect x="161" y="74" style="fill:#BF6060;" width="51" height="4"/>
+    <rect x="161" y="81" style="fill:#BF6060;" width="53" height="4"/>
+    <rect x="161" y="88" style="fill:#BF6060;" width="49" height="4"/>
+    <rect x="161" y="95" style="fill:#BF6060;" width="51" height="4"/>
+    <rect x="161" y="102" style="fill:#BF6060;" width="47" height="4"/>
+    <rect x="161" y="109" style="fill:#BF6060;" width="51" height="4"/>
+    <rect x="167" y="116" style="fill:#BF6060;" width="34" height="4"/>
+    <rect x="88" y="48" style="fill:#BF6060;" width="44" height="4"/>
+    <rect x="88" y="55" style="fill:#BF6060;" width="47" height="4"/>
+    <rect x="88" y="62" style="fill:#BF6060;" width="54" height="4"/>
+    <rect x="88" y="69" style="fill:#BF6060;" width="47" height="4"/>
+    <rect x="88" y="76" style="fill:#BF6060;" width="47" height="4"/>
+    <rect x="88" y="83" style="fill:#BF6060;" width="44" height="4"/>
+    <rect x="88" y="90" style="fill:#BF6060;" width="53" height="4"/>
+    <rect x="161" y="67" style="fill:#BF6060;" width="51" height="4"/>
+    <rect x="88" y="97" style="fill:#BF6060;" width="53" height="4"/>
+    <polygon style="fill:#67BFA2;" points="151.5,108.5 110.5,108.5 110.5,102 113.5,102 113.5,105.5 148.5,105.5 148.5,62.5
+        187.5,62.5 187.5,71.097 184.5,71.097 184.5,65.5 151.5,65.5"/>
+    <polygon style="fill:#67BFA2;" points="179.119,69.083 186,81 192.881,69.083"/>
 </g>
 </svg>
