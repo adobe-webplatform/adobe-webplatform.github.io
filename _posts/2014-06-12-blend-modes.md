@@ -8,26 +8,26 @@ full_image: project_header/icon-blend-modes.svg
 permalink: blend-modes
 bg: EFDDF5
 ---
-#CSS Blend Modes Compositing
+#CSS Compositing and Blending
 
 ##What is it?
 
-Some basic compositing is available in CSS & SVG, from a while back.
-
-And you’re probably familiar with advanced blend modes from Photoshop: color, color-burn, color-dodge, darken, difference, exclusion, hard-light, hue, lighten, luminosity, multiply, normal, overlay, saturation, screen, soft-light.
-
 The [Compositing and Blending Level 1](http://dev.w3.org/fxtf/compositing-1/) specification brings to the web platform the advanced blending modes that control how colors mix in areas where shapes overlap.
+
+You’re probably familiar with advanced blend modes from Photoshop: color, color-burn, color-dodge, darken, difference, exclusion, hard-light, hue, lighten, luminosity, multiply, normal, overlay, saturation, screen, soft-light.
+
+While some basic compositing has been available on the web via CSS & SVG from a while back, this new functionality provides capabilities similar to those in Photoshop directly to the web via CSS.
 
 <figure>
   <a href="{{site.baseurl}}/img/blendmodes.png">
     <img src="{{site.baseurl}}/img/blendmodes.png" alt="CSS Blend Modes Examples">
   </a>
-  <figcaption>CSS Blend Modes could be the next big thing in Web Design by Bennett Feely</figcaption>
+  <figcaption>The image above, taken from Bennett Feely’s article [CSS Blend Modes could be the next big thing in Web Design](https://medium.com/@bennettfeely/css-blend-modes-could-be-the-next-big-thing-in-web-design-6b51bf53743a), illustrates some of the new capabilities this feature will bring to CSS.</figcaption>
 </figure>
 
 ##When can I use it?
 
-Now in Chrome & Firefox and soon in Safari 8. For a view of current and upcoming browser support, check out [caniuse.com](http://caniuse.com/#search=blend-mode).
+Now in Chrome, Firefox and Opera and soon in Safari	8. For a view of current and upcoming browser support, check out [caniuse.com](http://caniuse.com/#search=blend-mode).
 
 ##Where can I learn more?
 
