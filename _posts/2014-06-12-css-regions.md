@@ -3,8 +3,8 @@ layout: page
 title:  "CSS Regions"
 categories: project
 description: Flow continuous content through arbitrary layout containers.
-thumb: project_header/css_regions_thumb.png
-full_image: project_header/css_regions.png
+thumb: project_header/icon-regions.svg
+full_image: project_header/icon-regions.svg
 bg: FFD577
 permalink: css-regions
 ---
@@ -31,7 +31,7 @@ For a view of current and upcoming browser support, check out [caniuse.com](http
 
 ##Where can i learn more?
 
-CJ Gammon's article [Killer Responsive Layouts With CSS Regions](http://www.smashingmagazine.com/2013/11/05/killer-responsive-layouts-with-css-regions/){:target="_blank"} provides a nice overview of CSS Regions concepts. In her article [CSS Regions Matter](http://sarasoueidan.com/blog/css-regions-matter/){:target="_blank"}, Sara Soueidan notices that CSS Regions are a fragmentation feature rather than a layout feature and from this perspective analyses some interesting use cases for them. 
+CJ Gammon's article [Killer Responsive Layouts With CSS Regions](http://www.smashingmagazine.com/2013/11/05/killer-responsive-layouts-with-css-regions/){:target="_blank"} provides a nice overview of CSS Regions concepts. In her article [CSS Regions Matter](http://sarasoueidan.com/blog/css-regions-matter/){:target="_blank"}, Sara Soueidan notices that CSS Regions are a fragmentation feature rather than a layout feature and from this perspective analyses some interesting use cases for them.
 
 Our samples of [regions on codepen.io](http://codepen.io/collection/jabto/){:target="_blank"} are there to help you understand the basic CSS Regions concepts. For more advanced usage of CSS Regions, you can take a look at some of the samples put together by the Adobe Web Platform team: [National Geographic Forest Giant](http://adobe-webplatform.github.io/Demo-for-National-Geographic-Forest-Giant/browser/src/){:target="_blank"},
  [Food Network Cupcakes](http://adobe-webplatform.github.io/Demo-for-Food-Network-Cupcakes/src/){:target="_blank"} and [Adaptive WebApp UI](http://webplatform.adobe.com/regions-adaptive/){:target="_blank"}.

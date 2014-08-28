@@ -7,11 +7,11 @@
 	<g>
 		<rect x="97" y="45" style="fill:#445A79;" width="106" height="79"/>
 		<ellipse style="fill:#FFD577;" cx="171.879" cy="67.385" rx="7.044" ry="6.996"/>
-		<polygon style="fill:#67BFA2;" points="109.226,114 135.612,78.237 159.915,102.079 173.108,91.488 192.898,114 		"/>
+		<polygon style="fill:#67BFA2;" points="109.226,114 135.612,78.237 159.915,102.079 173.108,91.488 192.898,114"/>
 	</g>
 	<g>
 		<defs>
-			<polygon id="SVGID_1_" points="97,124 115,124 194,45 97,45 			"/>
+			<polygon id="SVGID_1_" points="97,124 115,124 194,45 97,45"/>
 		</defs>
 		<clipPath id="SVGID_2_">
 			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
@@ -19,10 +19,8 @@
 		<g style="clip-path:url(#SVGID_2_);">
 			<rect x="97" y="45" style="fill:#555555;" width="106" height="79"/>
 			<ellipse style="fill:#ECEDED;" cx="171.879" cy="67.385" rx="7.044" ry="6.996"/>
-			<polygon style="fill:#ECEDED;" points="109.226,114 135.612,78.237 159.915,102.079 173.108,91.488 192.898,114 			"/>
+			<polygon style="fill:#ECEDED;" points="109.226,114 135.612,78.237 159.915,102.079 173.108,91.488 192.898,114"/>
 		</g>
 	</g>
-</g>
-<g id="Layer_1">
 </g>
 </svg>

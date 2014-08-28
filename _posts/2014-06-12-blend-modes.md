@@ -3,8 +3,8 @@ layout: page
 title:  "Blend Modes"
 categories: project
 description: Blend overlaying content colors using blend modes in CSS.
-thumb: project_header/blend_mode_thumb.png
-full_image: project_header/blend_mode.png
+thumb: project_header/icon-blend-modes.svg
+full_image: project_header/icon-blend-modes.svg
 permalink: blend-modes
 bg: EFDDF5
 ---
