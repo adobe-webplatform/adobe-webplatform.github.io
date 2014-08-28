@@ -3,165 +3,39 @@ layout: page
 title:  "CSS Regions"
 categories: project
 description: Flow continuous content through arbitrary layout containers.
-thumb: project_header/css_regions_thumb.png
-full_image: project_header/css_regions.png
+thumb: project_header/icon-regions.svg
+full_image: project_header/icon-regions.svg
 bg: FFD577
 permalink: css-regions
 ---
-An h1 header
-============
+#CSS Regions
 
-Paragraphs are separated by a blank line.
+##What is it?
 
-2nd paragraph. *Italic*, **bold**, and `monospace`. Itemized lists
-look like:
+With regions, you can use CSS properties to flow content into existing styled containers, regardless of their dimension or position on the page. Using regions, you can create visually appealing responsive layouts both for mobile and desktop content as shown in the "Orphaned Elephants" demo below.
 
-  * this one
-  * that one
-  * the other one
+<figure>
+  <a href="{{site.baseurl}}/img/orphan_elephants_cover.jpg">
+    <img src="{{site.baseurl}}/img/orphan_elephants_cover.jpg" alt="responsive design with regions and viewport units">
+  </a>
+  <figcaption>Responsive design with regions and viewport units. <a href="{{site.baseurl}}/enable/">Use Safari or WebKit Nightly</a> to view the <a href="http://adobe-webplatform.github.io/Demo-for-National-Geographic-Orphan-Elephants/" target="_blank">demo.</a></figcaption>
+</figure>
 
-Note that --- not considering the asterisk --- the actual text
-content starts at 4-columns in.
+The Adobe Web Platform team is contributing to the [CSS Regions Module Level 1](http://dev.w3.org/csswg/css-regions/){:target="_blank"} specification as well as the implementation in WebKit.
 
-> Block quotes are
-> written like so.
->
-> They can span multiple paragraphs,
-> if you like.
+##When can i use it?
 
-Use 3 dashes for an em-dash. Use 2 dashes for ranges (ex., "it's all
-in chapters 12--14"). Three dots ... will be converted to an ellipsis.
+Now in Safari on both OS X and iOS and also in Internet Explorer on Windows. In unsupported browsers you can use Francois Remy's [CSS Regions polyfill](https://github.com/FremyCompany/css-regions-polyfill/){:target="_blank"}.
 
+For a view of current and upcoming browser support, check out [caniuse.com](http://caniuse.com/#search=regions){:target="_blank"}.
 
+##Where can i learn more?
 
-An h2 header
-------------
+CJ Gammon's article [Killer Responsive Layouts With CSS Regions](http://www.smashingmagazine.com/2013/11/05/killer-responsive-layouts-with-css-regions/){:target="_blank"} provides a nice overview of CSS Regions concepts. In her article [CSS Regions Matter](http://sarasoueidan.com/blog/css-regions-matter/){:target="_blank"}, Sara Soueidan notices that CSS Regions are a fragmentation feature rather than a layout feature and from this perspective analyses some interesting use cases for them.
 
-Here's a numbered list:
+Our samples of [regions on codepen.io](http://codepen.io/collection/jabto/){:target="_blank"} are there to help you understand the basic CSS Regions concepts. For more advanced usage of CSS Regions, you can take a look at some of the samples put together by the Adobe Web Platform team: [National Geographic Forest Giant](http://adobe-webplatform.github.io/Demo-for-National-Geographic-Forest-Giant/browser/src/){:target="_blank"},
+ [Food Network Cupcakes](http://adobe-webplatform.github.io/Demo-for-Food-Network-Cupcakes/src/){:target="_blank"} and [Adaptive WebApp UI](http://webplatform.adobe.com/regions-adaptive/){:target="_blank"}.
 
- 1. first item
- 2. second item
- 3. third item
+During a CSS regions pattern rodeo hosted by CodePen, Tyler Fry and Joshua Hibbert created some awesome regions demos. Tyler Fry won the contest with his [reading carousel](http://codepen.io/frytyler/pen/wdecC){:target="_blank"} made out of regions and transforms, and Joshua Hibbert created an [exploding book](http://codepen.io/joshnh/pen/KyxtH){:target="_blank"} featuring a nice hover effect when opening the book.
 
-Note again how the actual text starts at 4 columns in (4 characters
-from the left side). Here's a code sample:
-
-    # Let me re-iterate ...
-    for i in 1 .. 10 { do-something(i) }
-
-As you probably guessed, indented 4 spaces. By the way, instead of
-indenting the block, you can use delimited blocks, if you like:
-
-~~~
-define foobar() {
-    print "Welcome to flavor country!";
-}
-~~~
-
-(which makes copying & pasting easier). You can optionally mark the
-delimited block for Pandoc to syntax highlight it:
-
-~~~python
-import time
-# Quick, count to ten!
-for i in range(10):
-    # (but not *too* quick)
-    time.sleep(0.5)
-    print i
-~~~
-
-
-
-### An h3 header ###
-
-Now a nested list:
-
- 1. First, get these ingredients:
-
-      * carrots
-      * celery
-      * lentils
-
- 2. Boil some water.
-
- 3. Dump everything in the pot and follow
-    this algorithm:
-
-        find wooden spoon
-        uncover pot
-        stir
-        cover pot
-        balance wooden spoon precariously on pot handle
-        wait 10 minutes
-        goto first step (or shut off burner when done)
-
-    Do not bump wooden spoon or it will fall.
-
-Notice again how text always lines up on 4-space indents (including
-that last line which continues item 3 above). Here's a link to [a
-website](http://foo.bar). Here's a link to a [local
-doc](local-doc.html). Here's a footnote [^1].
-
-[^1]: Footnote text goes here.
-
-Tables can look like this:
-
-size  material      color
-----  ------------  ------------
-9     leather       brown
-10    hemp canvas   natural
-11    glass         transparent
-
-Table: Shoes, their sizes, and what they're made of
-
-(The above is the caption for the table.) Pandoc also supports
-multi-line tables:
-
---------  -----------------------
-keyword   text
---------  -----------------------
-red       Sunsets, apples, and
-          other red or reddish
-          things.
-
-green     Leaves, grass, frogs
-          and other things it's
-          not easy being.
---------  -----------------------
-
-A horizontal rule follows.
-
-***
-
-Here's a definition list:
-
-apples
-  : Good for making applesauce.
-oranges
-  : Citrus!
-tomatoes
-  : There's no "e" in tomatoe.
-
-Again, text is indented 4 spaces. (Alternately, put blank lines in
-between each of the above definition list lines to spread things
-out more.)
-
-Here's a "line block":
-
-| Line one
-|   Line too
-| Line tree
-
-and images can be specified like so:
-
-![example image](example-image.jpg "An exemplary image")
-
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
-
-And note that you can backslash-escape any punctuation characters
-which you wish to be displayed literally, ex.: \`foo\`, \*bar\*, etc.
-
-Done.
+We’ll be sharing more information and updates from our [blog](http://blogs.adobe.com/webplatform/category/features/css-regions/){:target="_blank"} and [twitter](https://twitter.com/adobeweb){:target="_blank"} account.

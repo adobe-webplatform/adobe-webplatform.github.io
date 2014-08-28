@@ -3,8 +3,8 @@ layout: page
 title:  "CSS Masking"
 categories: project
 description: Clip content with custom shapes and soft edges.
-thumb: project_header/css_masking_thumb.png
-full_image: project_header/css_masking.png
+thumb: project_header/icon-masking.svg
+full_image: project_header/icon-masking.svg
 bg: e6b494
 permalink: css-masking
 ---
@@ -27,6 +27,6 @@ Now in Chrome, Firefox and Safari. For a view of current and upcoming browser su
 
 Also of interest:
 
-  * [Clipping in CSS and SVG](http://sarasoueidan.com/blog/css-svg-clipping/) by [Sara Soueidan](http://sarasoueidan.com/) 
+  * [Clipping in CSS and SVG](http://sarasoueidan.com/blog/css-svg-clipping/) by [Sara Soueidan](http://sarasoueidan.com/)
   * [CSS Masking on CodePen.io](https://www.google.com/search?q="css+masking"+site%3Acodepen.io)
   * [Making the Web Sweeter with Food Network and Cupcakes](http://blogs.adobe.com/webplatform/2014/01/16/making-the-web-sweeter/) by [CJ Gammon](CJ Gammon) goes over techniques used and provides [the demo source](https://github.com/adobe-webplatform/Demo-for-Food-Network-Cupcakes)
