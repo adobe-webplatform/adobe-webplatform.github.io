@@ -78,9 +78,6 @@ overlays, this is commonly done with shades of black, gray, or white.
   <a href="http://fmkcatering.com/" target="_blank">
     <img src="{{site.baseurl}}/img/overlay-fmk-catering.png" alt="Gradient Fade">
   </a>
-  <figcaption>
-     TODO
-  </figcaption>
 </figure>
 
 ####Frosted Glass
