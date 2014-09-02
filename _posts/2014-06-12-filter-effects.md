@@ -24,7 +24,6 @@ It's all encoded in the [Filter Effects Specification](http://www.w3.org/TR/filt
 
 <p data-height="289" data-theme-id="0" data-slug-hash="KyEpe" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/adobe/pen/KyEpe/'>CSS Filters Example</a> by Adobe Web Platform (<a href='http://codepen.io/adobe'>@adobe</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//codepen.io/assets/embed/ei.js"></script>
-<br/>
 
 ##When can I use it?
 
