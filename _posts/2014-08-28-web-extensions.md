@@ -12,7 +12,9 @@ permalink: web-extensions
 
 ##What is it?
 
-Web Extensions allows developers to build new features instead of just relying on the ones that the browser vendors could agree on and provide. These extensions leave room to the web developers to extend the browser features, without requiring them to implement them natively. The extensibility includes support for features like the [CSS Custom Properties for Cascading Variables](http://dev.w3.org/csswg/css-variables/){:target="_blank"}, which allows web developers to create their own JavaScript extensions easier.
+Web Extensions allow developers to build features on top of browsers  without requiring them to be implemented  natively, in the browser.
+
+The Adobe Web Platform Team is excited about the web extension [CSS Custom Properties for Cascading Variables](http://dev.w3.org/csswg/css-variables/){:target="_blank"}. With some JavaScript, a web developer can create a custom property and assign it a default value. Those default values then cascade throughout the related style sheets. . For example, here is some code that defines a default theme color and indentation, as well as the style for the first two headings. Anyone using those styles automatically inherits those styles.
 
 <figure>
     <img src="{{site.baseurl}}/img/custom-properties-example.png" alt="Custom Properties Example">
@@ -31,8 +33,8 @@ Learn how to [enable this feature in popular browsers](http://html.adobe.com/web
 
 ##Where can I learn more?
 
-You can learn more about the Extensible Web Community Group on their [W3C website](http://www.w3.org/community/nextweb/){:target="_blank"}.
-
 To deepen your understanding, do check out the [CSS Custom Properties for Cascading Variables](http://dev.w3.org/csswg/css-variables/){:target="_blank"} specification or the Mozilla Developer Network’s page about [Using CSS variables](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_variables){:target="_blank"}.
 
-We’ll be sharing more information and updates from our [blog](http://blogs.adobe.com/webplatform/) and [twitter](https://twitter.com/adobeweb){:target="_blank"} account.
+You can learn more about the Extensible Web Community Group on their [W3C website](http://www.w3.org/community/nextweb/){:target="_blank"}.
+
+And we’ll be sharing more information and updates from our [blog](http://blogs.adobe.com/webplatform/) and [twitter](https://twitter.com/adobeweb){:target="_blank"} account.
