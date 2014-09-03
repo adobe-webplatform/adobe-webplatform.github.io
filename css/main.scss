@@ -230,6 +230,12 @@ h4 {
   }
 }
 
+.home .content h1 {
+  @media screen and (max-width: 630px) {
+    text-align: center;
+  }
+}
+
 .post {
   text-align: center;
 }
