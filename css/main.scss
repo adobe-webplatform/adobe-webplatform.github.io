@@ -63,7 +63,8 @@ html, body { width: 100%; height: 100%; }
       top: 0;
       left: 0;
       z-index: 1;
-      @media screen and (min-width: 600px) {
+      @media screen and (min-width: 700px) {
+        /* Place on top only if it won't overlay text */
         z-index: 3;
       }
     }

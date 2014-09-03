@@ -50,8 +50,9 @@ html, body {
       top: 0;
       left: 0;
       z-index: 1; }
-      @media screen and (min-width: 600px) {
+      @media screen and (min-width: 700px) {
         .header.page .home-nav {
+          /* Place on top only if it won't overlay text */
           z-index: 3; } }
   .header .hero {
     width: 100%;
