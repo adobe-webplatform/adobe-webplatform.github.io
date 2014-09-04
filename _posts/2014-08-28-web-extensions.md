@@ -3,8 +3,8 @@ layout: page
 title:  "Web Extensions"
 categories: project
 description: Web Extensions.
-thumb: project_header/filter_effects.png
-full_image: project_header/filter_effects.png
+thumb: project_header/icon-web-extensions.svg
+full_image: project_header/icon-web-extensions.svg
 bg: 928CA5
 permalink: web-extensions
 ---
