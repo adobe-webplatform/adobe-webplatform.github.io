@@ -18,9 +18,21 @@
     .links {
       text-align: center;
     }
+    a {
+      display: inline-block;
+      padding-left: 8px;
+      padding-right: 8px;
+      color: #0074D9;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
     img {
-      padding-left: 4px;
-      padding-right: 4px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 4px;
       border: none;
       width: 64px;
       height: 64px;
@@ -39,11 +51,11 @@
   <script>
     $(function() {
       var links = _.shuffle([
-        '<a href="http://www.apple.com/safari/"><img src="/img/browser-logos/safari-128x128.png"/></a>',
-        '<a href="https://www.mozilla.org/en-US/firefox/new/"><img src="/img/browser-logos/firefox-128x128.png"/></a>',
-        '<a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie"><img src="/img/browser-logos/internet-explorer-128x128.png"/></a>',
-        '<a href="https://www.google.com/chrome/browser/"><img src="/img/browser-logos/chrome-128x128.png"/></a>',
-        '<a href="http://www.opera.com/"><img src="/img/browser-logos/opera-128x128.png"/></a>'
+        '<a href="http://www.apple.com/safari/"><img src="/img/browser-logos/safari-128x128.png"/>Safari 5.1+</a>',
+        '<a href="https://www.mozilla.org/en-US/firefox/new/"><img src="/img/browser-logos/firefox-128x128.png"/>Firefox 30+</a>',
+        '<a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie"><img src="/img/browser-logos/internet-explorer-128x128.png"/>IE9+</a>',
+        '<a href="https://www.google.com/chrome/browser/"><img src="/img/browser-logos/chrome-128x128.png"/>Chrome 27+</a>',
+        '<a href="http://www.opera.com/"><img src="/img/browser-logos/opera-128x128.png"/>Opera 23+</a>'
       ]);
 
       for (var i = 0; i < links.length; i++) {
