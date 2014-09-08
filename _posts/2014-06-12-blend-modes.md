@@ -30,6 +30,8 @@ The Adobe Web Platform team is working on bringing blend modes to the HTML world
 
 Now in Chrome, Firefox, Opera and soon in Safari 8. For a view of current and upcoming browser support, check out [caniuse.com](http://caniuse.com/#search=blend-mode){:target="_blank"}.
 
+Learn how to [enable this feature in popular browsers](http://webplatform.adobe.com/enable/).
+
 ##Where can I learn more?
 
 There are many resources on the web that can help you to learn what the blend modes are and how you can use them to create compelling visual effects.

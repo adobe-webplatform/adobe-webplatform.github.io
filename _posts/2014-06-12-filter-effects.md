@@ -35,6 +35,8 @@ IE doesn't have them quite [yet](http://status.modern.ie/filters?term=filter){:t
 
 [SVG filters](http://caniuse.com/#feat=svg-filters){:target="_blank"} are available in all the latest browsers and IE10. However, you can't apply SVG filters on HTML content in IE yet.
 
+Learn how to [enable this feature in popular browsers](http://webplatform.adobe.com/enable/).
+
 ##Where can I learn more?
 
 There are a variety of resources on the web for learning about filter effects. Please read and tinker!
