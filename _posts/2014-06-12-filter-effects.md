@@ -20,7 +20,7 @@ You can use CSS filter shorthands for quick, compelling effects on your content.
 
 Or you can use SVG filters to customize your own visual effects.
 
-It's all encoded in the [Filter Effects Specification](http://www.w3.org/TR/filter-effects/). But first, let's check out a quick example of CSS filters. Play with the slider below:
+It's all encoded in the [Filter Effects Specification](http://www.w3.org/TR/filter-effects/){:target="_blank"}. But first, let's check out a quick example of CSS filters. Play with the slider below:
 
 <p data-height="289" data-theme-id="0" data-slug-hash="KyEpe" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/adobe/pen/KyEpe/'>CSS Filters Example</a> by Adobe Web Platform (<a href='http://codepen.io/adobe'>@adobe</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//codepen.io/assets/embed/ei.js"></script>
@@ -29,11 +29,11 @@ It's all encoded in the [Filter Effects Specification](http://www.w3.org/TR/filt
 
 You can use filters now. Just make sure you have a less pretty fallback when they aren't available.
 
-[CSS filters](http://caniuse.com/#feat=css-filters) are available -webkit prefixed in Safari and Chrome.
-They're coming soon to Firefox, unprefixed. We're [working](https://bugzilla.mozilla.org/show_bug.cgi?id=948265) on it!
-IE doesn't have them quite [yet](http://status.modern.ie/filters?term=filter).
+[CSS filters](http://caniuse.com/#feat=css-filters){:target="_blank"} are available -webkit prefixed in Safari and Chrome.
+They're coming soon to Firefox, unprefixed. We're [working](https://bugzilla.mozilla.org/show_bug.cgi?id=948265){:target="_blank"} on it!
+IE doesn't have them quite [yet](http://status.modern.ie/filters?term=filter){:target="_blank"}.
 
-[SVG filters](http://caniuse.com/#feat=svg-filters) are available in all the latest browsers and IE10. However, you can't apply SVG filters on HTML content in IE yet.
+[SVG filters](http://caniuse.com/#feat=svg-filters){:target="_blank"} are available in all the latest browsers and IE10. However, you can't apply SVG filters on HTML content in IE yet.
 
 ##Where can I learn more?
 
