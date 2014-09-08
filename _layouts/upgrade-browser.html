@@ -4,52 +4,52 @@
 <head>
   <meta charset="utf-8"/>
   <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-	<title>Please Upgrade Your Browser</title>
-	<script src="//use.edgefonts.net/source-sans-pro:n4,i4,n9.js"></script>
+  <title>Please Upgrade Your Browser</title>
+  <script src="//use.edgefonts.net/source-sans-pro:n4,i4,n9.js"></script>
   <style>
-	  body {
-	  	font-family: "source-sans-pro", sans-serif;
-	  }
-	  .content {
-	  	margin-left: auto;
-	  	margin-right: auto;
-	  	width: 480px;
-	  }
-	  .links {
-	  	text-align: center;
-	  }
-	  img {
-	  	padding-left: 4px;
-	  	padding-right: 4px;
-	  	border: none;
-	  	width: 64px;
-	  	height: 64px;
-	  }
+    body {
+      font-family: "source-sans-pro", sans-serif;
+    }
+    .content {
+      margin-left: auto;
+      margin-right: auto;
+      width: 480px;
+    }
+    .links {
+      text-align: center;
+    }
+    img {
+      padding-left: 4px;
+      padding-right: 4px;
+      border: none;
+      width: 64px;
+      height: 64px;
+    }
   </style>
 </head>
 <body>
-	<div class="content">
-	  <h1>Please upgrade your browser</h1>
-	  <p>This website is all about cutting-edge web platform features, so you'll need a more recent browser. Please install your favorite and visit us again:</p>
-	  <div class="links"></div>
-	</div>
+  <div class="content">
+    <h1>Please upgrade your browser</h1>
+    <p>This website is all about cutting-edge web platform features, so you'll need a more recent browser. Please install your favorite and visit us again:</p>
+    <div class="links"></div>
+  </div>
 
-	<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
+  <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.min.js"></script>
   <script>
-		$(function() {
-			var links = _.shuffle([
-		  	'<a href="http://www.apple.com/safari/"><img src="/img/browser-logos/safari-128x128.png"/></a>',
-		  	'<a href="https://www.mozilla.org/en-US/firefox/new/"><img src="/img/browser-logos/firefox-128x128.png"/></a>',
-		  	'<a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie"><img src="/img/browser-logos/internet-explorer-128x128.png"/></a>',
-		  	'<a href="https://www.google.com/chrome/browser/"><img src="/img/browser-logos/chrome-128x128.png"/></a>',
-		  	'<a href="http://www.opera.com/"><img src="/img/browser-logos/opera-128x128.png"/></a>'
-			]);
+    $(function() {
+      var links = _.shuffle([
+        '<a href="http://www.apple.com/safari/"><img src="/img/browser-logos/safari-128x128.png"/></a>',
+        '<a href="https://www.mozilla.org/en-US/firefox/new/"><img src="/img/browser-logos/firefox-128x128.png"/></a>',
+        '<a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie"><img src="/img/browser-logos/internet-explorer-128x128.png"/></a>',
+        '<a href="https://www.google.com/chrome/browser/"><img src="/img/browser-logos/chrome-128x128.png"/></a>',
+        '<a href="http://www.opera.com/"><img src="/img/browser-logos/opera-128x128.png"/></a>'
+      ]);
 
-			for (var i = 0; i < links.length; i++) {
-				$(".links").append($(links[i]));
-			}
-		});  	
+      for (var i = 0; i < links.length; i++) {
+        $(".links").append($(links[i]));
+      }
+    });    
   </script>
 </body>
 </html>
