@@ -30,7 +30,7 @@ It's all encoded in the [Filter Effects Specification](http://www.w3.org/TR/filt
 You can use filters now. Just make sure you have a less pretty fallback when they aren't available.
 
 [CSS filters](http://caniuse.com/#feat=css-filters){:target="_blank"} are available -webkit prefixed in Safari and Chrome.
-They're coming soon to Firefox, unprefixed. We're [working](https://bugzilla.mozilla.org/show_bug.cgi?id=948265){:target="_blank"} on it!
+They're coming soon to Firefox, unprefixed. We're [working](https://bugzilla.mozilla.org/show_bug.cgi?id=869828){:target="_blank"} on it!
 IE doesn't have them quite [yet](http://status.modern.ie/filters?term=filter){:target="_blank"}.
 
 [SVG filters](http://caniuse.com/#feat=svg-filters){:target="_blank"} are available in all the latest browsers and IE10. However, you can't apply SVG filters on HTML content in IE yet.
