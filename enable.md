@@ -7,7 +7,7 @@ bg: da727e
 
 [pull-quotes]: {{ site.baseurl }}/pull-quotes/ "Pull Quotes"
 [drop-caps]: {{ site.baseurl }}/drop-caps/ "Drop Caps"
-[css-shapes]: {{ site.baseurl }}/css-shapes/ "CSS Shapes"
+[shapes]: {{ site.baseurl }}/shapes/ "Shapes"
 [css-regions]: {{ site.baseurl }}/css-regions/ "CSS Regions"
 [css-masking]: {{ site.baseurl }}/css-masking/ "CSS Masking"
 [captions]: {{ site.baseurl }}/captions/ "Captions"
@@ -43,7 +43,7 @@ Features are enabled by default on Desktop Safari 7 and do not require a flag.
 WebKit Nightly builds can be downloaded from the [WebKit Nightly page](http://nightly.webkit.org/){:target="_blank"}. Features are enabled by default and do not require a flag.
 
 #### Features Available
-* [Shapes][css-shapes]
+* [Shapes][shapes]
 * [Regions][css-regions]
 * [Blend Modes][blend-modes]
 * [Canvas Paths](http://blogs.adobe.com/webplatform/2013/09/18/ios-7-safari-new-web-platform-features/)
@@ -54,7 +54,7 @@ WebKit Nightly builds can be downloaded from the [WebKit Nightly page](http://ni
 Chrome can be downloaded from the [Google Chrome page](https://www.google.com/intl/en/chrome/browser/){:target="_blank"}.
 
 #### Features Available
-* [Shapes][css-shapes]
+* [Shapes][shapes]
 * [Blend Modes][blend-modes]
 * [Canvas Paths](http://blogs.adobe.com/webplatform/2013/09/18/ios-7-safari-new-web-platform-features/)
 * [CSS Masking][css-masking]
@@ -71,7 +71,7 @@ Chrome can be downloaded from the [Google Chrome page](https://www.google.com/in
 Chrome Canary builds can be downloaded from the [Google Chrome Canary page](https://www.google.com/intl/en/chrome/browser/canary.html){:target="_blank"}.
 
 #### Features Available
-* [Shapes][css-shapes]
+* [Shapes][shapes]
 * [Blend Modes][blend-modes]
 * [Canvas Paths](http://blogs.adobe.com/webplatform/2013/09/18/ios-7-safari-new-web-platform-features/)
 * [CSS Masking][css-masking]
@@ -96,7 +96,7 @@ Opera can be downloaded from the [Opera home page](http://www.opera.com/){:targe
 
 #### Features Available (requires Opera version 17+)
 
-* [Shapes][css-shapes]
+* [Shapes][shapes]
 * [Blend Modes][blend-modes]
 * [Canvas Paths](http://blogs.adobe.com/webplatform/2013/09/18/ios-7-safari-new-web-platform-features/)
 * [CSS Masking][css-masking]
