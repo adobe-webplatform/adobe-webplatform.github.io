@@ -8,7 +8,7 @@ bg: da727e
 [pull-quotes]: {{ site.baseurl }}/pull-quotes/ "Pull Quotes"
 [drop-caps]: {{ site.baseurl }}/drop-caps/ "Drop Caps"
 [shapes]: {{ site.baseurl }}/shapes/ "Shapes"
-[regions]: {{ site.baseurl }}/regions/ "CSS Regions"
+[regions]: {{ site.baseurl }}/regions/ "Regions"
 [clipping-and-masking]: {{ site.baseurl }}/clipping-and-masking/ "Clipping & Masking"
 [captions]: {{ site.baseurl }}/captions/ "Captions"
 [blend-modes]: {{ site.baseurl }}/blend-modes/ "Blend Modes"
