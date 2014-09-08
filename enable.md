@@ -9,7 +9,7 @@ bg: da727e
 [drop-caps]: {{ site.baseurl }}/drop-caps/ "Drop Caps"
 [shapes]: {{ site.baseurl }}/shapes/ "Shapes"
 [regions]: {{ site.baseurl }}/regions/ "CSS Regions"
-[css-masking]: {{ site.baseurl }}/css-masking/ "CSS Masking"
+[clipping-and-masking]: {{ site.baseurl }}/clipping-and-masking/ "Clipping & Masking"
 [captions]: {{ site.baseurl }}/captions/ "Captions"
 [blend-modes]: {{ site.baseurl }}/blend-modes/ "Blend Modes"
 [filter-effects]: {{ site.baseurl }}/filter-effects/ "Filter Effects"
@@ -26,7 +26,7 @@ Features are enabled by default on iOS 7 Safari and do not require a flag.
 * [Regions][regions]
 * [Canvas Blend Modes][blend-modes]
 * [Canvas Paths](http://blogs.adobe.com/webplatform/2013/09/18/ios-7-safari-new-web-platform-features/)
-* [CSS Masking][css-masking]
+* [Clipping & Masking][clipping-and-masking]
 
 ### Desktop Safari 7
 
@@ -36,7 +36,7 @@ Features are enabled by default on Desktop Safari 7 and do not require a flag.
 * [Regions][regions]
 * [Canvas Blend Modes][blend-modes]
 * [Canvas Paths](http://blogs.adobe.com/webplatform/2013/09/18/ios-7-safari-new-web-platform-features/)
-* [CSS Masking][css-masking]
+* [Clipping & Masking][clipping-and-masking]
 
 ### WebKit Nightly
 
@@ -47,7 +47,7 @@ WebKit Nightly builds can be downloaded from the [WebKit Nightly page](http://ni
 * [Regions][regions]
 * [Blend Modes][blend-modes]
 * [Canvas Paths](http://blogs.adobe.com/webplatform/2013/09/18/ios-7-safari-new-web-platform-features/)
-* [CSS Masking][css-masking]
+* [Clipping & Masking][clipping-and-masking]
 
 ### Chrome
 
@@ -57,7 +57,7 @@ Chrome can be downloaded from the [Google Chrome page](https://www.google.com/in
 * [Shapes][shapes]
 * [Blend Modes][blend-modes]
 * [Canvas Paths](http://blogs.adobe.com/webplatform/2013/09/18/ios-7-safari-new-web-platform-features/)
-* [CSS Masking][css-masking]
+* [Clipping & Masking][clipping-and-masking]
 
 #### To enable Shapes and Blend Modes
 1. Copy and paste `chrome://flags/#enable-experimental-web-platform-features` into the address bar, then press enter.
@@ -74,7 +74,7 @@ Chrome Canary builds can be downloaded from the [Google Chrome Canary page](http
 * [Shapes][shapes]
 * [Blend Modes][blend-modes]
 * [Canvas Paths](http://blogs.adobe.com/webplatform/2013/09/18/ios-7-safari-new-web-platform-features/)
-* [CSS Masking][css-masking]
+* [Clipping & Masking][clipping-and-masking]
 
 #### To enable Shapes and Blend Modes
 1. Copy and paste `chrome://flags/#enable-experimental-web-platform-features` into the address bar, then press enter.
@@ -99,7 +99,7 @@ Opera can be downloaded from the [Opera home page](http://www.opera.com/){:targe
 * [Shapes][shapes]
 * [Blend Modes][blend-modes]
 * [Canvas Paths](http://blogs.adobe.com/webplatform/2013/09/18/ios-7-safari-new-web-platform-features/)
-* [CSS Masking][css-masking]
+* [Clipping & Masking][clipping-and-masking]
 
 #### To enable Shapes and Blend Modes
 1. Copy and paste `opera://flags/#enable-experimental-web-platform-features` into the address bar, then press enter.
