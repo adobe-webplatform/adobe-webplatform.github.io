@@ -89,6 +89,7 @@ Firefox can be downloaded from the [Firefox download page](http://www.mozilla.or
 
 #### Features Available
 * [Canvas Blend Modes][blend-modes]
+* [Custom Properties][web-extensions]
 
 ### Opera
 
