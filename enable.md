@@ -13,6 +13,7 @@ bg: da727e
 [captions]: {{ site.baseurl }}/captions/ "Captions"
 [blend-modes]: {{ site.baseurl }}/blend-modes/ "Blend Modes"
 [filter-effects]: {{ site.baseurl }}/filter-effects/ "Filter Effects"
+[web-extensions]: {{ site.baseurl }}/web-extensions/ "Web Extensions"
 
 ## Enable Cutting-Edge Graphical &amp; Layout Features
 
@@ -24,7 +25,7 @@ Features are enabled by default on iOS 7 Safari and do not require a flag.
 
 #### Features Available
 * [Regions][regions]
-* [Canvas Blend Modes][blend-modes]
+* [Blend Modes][blend-modes]
 * [Canvas Paths](http://blogs.adobe.com/webplatform/2013/09/18/ios-7-safari-new-web-platform-features/)
 * [Clipping & Masking][clipping-and-masking]
 
@@ -34,7 +35,7 @@ Features are enabled by default on Desktop Safari 7 and do not require a flag.
 
 #### Features Available
 * [Regions][regions]
-* [Canvas Blend Modes][blend-modes]
+* [Blend Modes][blend-modes]
 * [Canvas Paths](http://blogs.adobe.com/webplatform/2013/09/18/ios-7-safari-new-web-platform-features/)
 * [Clipping & Masking][clipping-and-masking]
 
@@ -85,10 +86,14 @@ Chrome Canary builds can be downloaded from the [Google Chrome Canary page](http
 
 ### Firefox
 
-Firefox can be downloaded from the [Firefox download page](http://www.mozilla.org/en-US/firefox/new/){:target="_blank"}. Features are enabled by default and do not require a flag.
+Firefox can be downloaded from the [Firefox download page](http://www.mozilla.org/en-US/firefox/new/){:target="_blank"}.
+Features are enabled by default and do not require a flag.
+
+You can also check if features are enabled in the [Firefox nightly builds](https://nightly.mozilla.org/){:target="_blank"}.
 
 #### Features Available
-* [Canvas Blend Modes][blend-modes]
+* [Blend Modes][blend-modes]
+* [Custom Properties][web-extensions]
 
 ### Opera
 

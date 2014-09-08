@@ -26,10 +26,10 @@ The Adobe Web Platform Team is excited about the web extension [CSS Custom Prope
 
 ##When can I use it?
 
-CSS Custom Properties is now supported in Firefox, and it will be available in WebKit soon. For a view of current and upcoming browser support, check out [caniuse.com](http://caniuse.com/#search=svg){:target="_blank"}.
+CSS Custom Properties is now supported in Firefox, and it will be available in WebKit soon. For a view of current and upcoming browser support, check out [caniuse.com](http://caniuse.com/#search=cascading variables){:target="_blank"}.
 
 
-Learn how to [enable this feature in popular browsers](http://html.adobe.com/webplatform/enable/){:target="_blank"}.
+Learn how to [enable this feature in popular browsers](http://webplatform.adobe.com/enable/).
 
 ##Where can I learn more?
 
@@ -37,4 +37,4 @@ To deepen your understanding, do check out the [CSS Custom Properties for Cascad
 
 You can learn more about the Extensible Web Community Group on their [W3C website](http://www.w3.org/community/nextweb/){:target="_blank"}.
 
-And we’ll be sharing more information and updates from our [blog](http://blogs.adobe.com/webplatform/) and [twitter](https://twitter.com/adobeweb){:target="_blank"} account.
+And we’ll be sharing more information and updates from our [blog](http://blogs.adobe.com/webplatform/) and [twitter](https://twitter.com/adobeweb) account.
