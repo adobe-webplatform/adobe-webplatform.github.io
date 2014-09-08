@@ -8,7 +8,7 @@ bg: da727e
 [pull-quotes]: {{ site.baseurl }}/pull-quotes/ "Pull Quotes"
 [drop-caps]: {{ site.baseurl }}/drop-caps/ "Drop Caps"
 [shapes]: {{ site.baseurl }}/shapes/ "Shapes"
-[css-regions]: {{ site.baseurl }}/css-regions/ "CSS Regions"
+[regions]: {{ site.baseurl }}/regions/ "CSS Regions"
 [css-masking]: {{ site.baseurl }}/css-masking/ "CSS Masking"
 [captions]: {{ site.baseurl }}/captions/ "Captions"
 [blend-modes]: {{ site.baseurl }}/blend-modes/ "Blend Modes"
@@ -23,7 +23,7 @@ Many of the features we are actively implementing can be used today in various b
 Features are enabled by default on iOS 7 Safari and do not require a flag.
 
 #### Features Available
-* [Regions][css-regions]
+* [Regions][regions]
 * [Canvas Blend Modes][blend-modes]
 * [Canvas Paths](http://blogs.adobe.com/webplatform/2013/09/18/ios-7-safari-new-web-platform-features/)
 * [CSS Masking][css-masking]
@@ -33,7 +33,7 @@ Features are enabled by default on iOS 7 Safari and do not require a flag.
 Features are enabled by default on Desktop Safari 7 and do not require a flag.
 
 #### Features Available
-* [Regions][css-regions]
+* [Regions][regions]
 * [Canvas Blend Modes][blend-modes]
 * [Canvas Paths](http://blogs.adobe.com/webplatform/2013/09/18/ios-7-safari-new-web-platform-features/)
 * [CSS Masking][css-masking]
@@ -44,7 +44,7 @@ WebKit Nightly builds can be downloaded from the [WebKit Nightly page](http://ni
 
 #### Features Available
 * [Shapes][shapes]
-* [Regions][css-regions]
+* [Regions][regions]
 * [Blend Modes][blend-modes]
 * [Canvas Paths](http://blogs.adobe.com/webplatform/2013/09/18/ios-7-safari-new-web-platform-features/)
 * [CSS Masking][css-masking]
