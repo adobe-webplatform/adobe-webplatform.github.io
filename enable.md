@@ -13,6 +13,7 @@ bg: da727e
 [captions]: {{ site.baseurl }}/captions/ "Captions"
 [blend-modes]: {{ site.baseurl }}/blend-modes/ "Blend Modes"
 [filter-effects]: {{ site.baseurl }}/filter-effects/ "Filter Effects"
+[web-extensions]: {{ site.baseurl }}/web-extensions/ "Web Extensions"
 
 ## Enable Cutting-Edge Graphical &amp; Layout Features
 
