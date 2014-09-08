@@ -85,7 +85,10 @@ Chrome Canary builds can be downloaded from the [Google Chrome Canary page](http
 
 ### Firefox
 
-Firefox can be downloaded from the [Firefox download page](http://www.mozilla.org/en-US/firefox/new/){:target="_blank"}. Features are enabled by default and do not require a flag.
+Firefox can be downloaded from the [Firefox download page](http://www.mozilla.org/en-US/firefox/new/){:target="_blank"}.
+Features are enabled by default and do not require a flag.
+
+You can also check if features are enabled in the [Firefox nightly builds](https://nightly.mozilla.org/){:target="_blank"}.
 
 #### Features Available
 * [Canvas Blend Modes][blend-modes]
