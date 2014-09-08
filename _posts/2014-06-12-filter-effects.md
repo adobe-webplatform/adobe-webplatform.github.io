@@ -22,7 +22,7 @@ Or you can use SVG filters to customize your own visual effects.
 
 It's all encoded in the [Filter Effects Specification](http://www.w3.org/TR/filter-effects/). But first, let's check out a quick example of CSS filters. Play with the slider below:
 
-<p data-height="289" data-theme-id="0" data-slug-hash="KyEpe" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/adobe/pen/KyEpe/'>CSS Filters Example</a> by Adobe Web Platform (<a href='http://codepen.io/adobe'>@adobe</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+<p data-height="289" data-theme-id="0" data-slug-hash="KyEpe" data-default-tab="result" class='codepen'>See the pen <a href='http://codepen.io/adobe/pen/KyEpe/'>CSS Filters Example</a> by Adobe Web Platform (<a href='http://codepen.io/adobe'>@adobe</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
 <script async src="//codepen.io/assets/embed/ei.js"></script>
 
 ##When can I use it?
@@ -47,4 +47,4 @@ There are a variety of resources on the web for learning about filter effects. P
 <br/>
 [SVG Filters on Text Using Raphael.js](http://css-tricks.com/svg-filters-on-text/){:target="_blank"}
 
-We’ll be sharing more information and updates from our [blog](http://blogs.adobe.com/webplatform/) and [twitter](https://twitter.com/adobeweb) account.
+We’ll be sharing more information and updates from our [blog](http://blogs.adobe.com/webplatform/) and [Twitter](https://twitter.com/adobeweb) account.
