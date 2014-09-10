@@ -108,14 +108,14 @@ You can also check if features are enabled in the [Firefox nightly builds](https
 
 Opera can be downloaded from the [Opera home page](http://www.opera.com/){:target="_blank"}.
 
-#### Features Available (requires Opera version 17+)
+#### Features Available
 
-* [Shapes][shapes]
-* [Blend Modes][blend-modes]
-* [Canvas Paths](http://blogs.adobe.com/webplatform/2013/09/18/ios-7-safari-new-web-platform-features/)
-* [Clipping & Masking][clipping-and-masking]
+* [Shapes][shapes] (requires version 24+)
+* [Blend Modes][blend-modes] (requires version 22+)
+* [Canvas Paths](http://blogs.adobe.com/webplatform/2013/09/18/ios-7-safari-new-web-platform-features/) (requires version 17+)
+* [Clipping & Masking][clipping-and-masking] (requires version 17+)
 
-#### To enable Shapes and Blend Modes
+#### To enable Blend Modes
 1. Copy and paste `opera://flags/#enable-experimental-web-platform-features` into the address bar, then press enter.
 2. Click the 'Enable' link within that section.
 3. Click the 'Relaunch Now' button at the bottom of the browser window.
