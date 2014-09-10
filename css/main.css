@@ -12,7 +12,9 @@ html, body {
 .header {
   width: 100%;
   box-sizing: border-box;
-  padding: 4rem 0 2rem 0; }
+  padding: 4rem 0 2rem 0;
+  position: relative;
+  z-index: -2; }
   .header.home .logo {
     float: left;
     height: 7.2rem;
@@ -35,19 +37,6 @@ html, body {
     content: '';
     display: table;
     clear: both; }
-  .header.page .home-nav {
-    display: block;
-    position: fixed;
-    padding: .8rem 1rem 1rem;
-    width: 2rem;
-    height: 2rem;
-    top: 0;
-    left: 0;
-    z-index: 1; }
-    @media screen and (min-width: 700px) {
-      .header.page .home-nav {
-        /* Place on top only if it won't overlay text */
-        z-index: 3; } }
   .header.page:not(.small) h1 {
     display: none; }
     @media screen and (min-height: 430px) {
@@ -65,25 +54,44 @@ html, body {
   .header.fixed {
     position: fixed;
     top: 0;
-    left: 0; }
+    left: 0;
+    display: none; }
 
+.home-nav {
+  display: block;
+  position: fixed;
+  padding: .8rem 1rem 1rem;
+  width: 2rem;
+  height: 2rem;
+  top: 0;
+  left: 0;
+  z-index: -1; }
+  @media screen and (min-width: 700px) {
+    .home-nav {
+      /* Place on top only if it won't overlay text */
+      z-index: 1; } }
+
+/* For large enough screens, enable a fixed-style header */
+@media screen and (min-width: 500px) and (min-height: 500px) {
+  .header:not(.fixed) {
+    visibility: hidden; }
+
+  .header.fixed {
+    display: block; }
+
+  .footer, .content {
+    position: relative;
+    /* hardware accelerate for smooth paint while device scrolling */
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0); } }
 .footer {
-  padding: 40px 0 60px;
-  position: relative;
-  z-index: 2;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0); }
+  padding: 40px 0 60px; }
   .footer h3 {
     width: 100px; }
 
 .content {
   width: 100%;
   padding: 2rem 0 4rem;
-  position: relative;
-  z-index: 2;
-  /* hardware accelerate for smooth paint while device scrolling */
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
   /* prevent content overflow from causing side-scroll */
   overflow: hidden; }
 
@@ -223,7 +231,8 @@ a {
 .header.page h1 {
   color: white;
   text-shadow: 2px 2px 2px #333; }
-.header.page .home-nav {
+
+.home-nav {
   background: rgba(255, 255, 255, 0.4); }
 
 .footer {
