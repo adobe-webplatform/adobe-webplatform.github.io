@@ -19,6 +19,17 @@ bg: da727e
 
 Many of the features we are actively implementing can be used today in various browsers:
 
+### iOS 8 Safari
+
+Features are enabled by default on iOS 8 Safari and do not require a flag.
+
+#### Features Available
+* [Shapes][shapes]
+* [Regions][regions]
+* [Blend Modes][blend-modes]
+* [Canvas Paths](http://blogs.adobe.com/webplatform/2013/09/18/ios-7-safari-new-web-platform-features/)
+* [Clipping & Masking][clipping-and-masking]
+
 ### iOS 7 Safari
 
 Features are enabled by default on iOS 7 Safari and do not require a flag.
