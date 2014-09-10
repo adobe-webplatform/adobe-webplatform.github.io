@@ -36,7 +36,6 @@ Features are enabled by default on iOS 7 Safari and do not require a flag.
 
 #### Features Available
 * [Regions][regions]
-* [Blend Modes][blend-modes]
 * [Canvas Paths](http://blogs.adobe.com/webplatform/2013/09/18/ios-7-safari-new-web-platform-features/)
 * [Clipping & Masking][clipping-and-masking]
 
@@ -46,7 +45,6 @@ Features are enabled by default on Desktop Safari 7 and do not require a flag.
 
 #### Features Available
 * [Regions][regions]
-* [Blend Modes][blend-modes]
 * [Canvas Paths](http://blogs.adobe.com/webplatform/2013/09/18/ios-7-safari-new-web-platform-features/)
 * [Clipping & Masking][clipping-and-masking]
 
