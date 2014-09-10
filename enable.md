@@ -69,7 +69,7 @@ Chrome can be downloaded from the [Google Chrome page](https://www.google.com/in
 * [Canvas Paths](http://blogs.adobe.com/webplatform/2013/09/18/ios-7-safari-new-web-platform-features/)
 * [Clipping & Masking][clipping-and-masking]
 
-#### To enable Shapes and Blend Modes
+#### To enable Blend Modes
 1. Copy and paste `chrome://flags/#enable-experimental-web-platform-features` into the address bar, then press enter.
 2. Click the 'Enable' link within that section.
 3. Click the 'Relaunch Now' button at the bottom of the browser window.
@@ -86,7 +86,7 @@ Chrome Canary builds can be downloaded from the [Google Chrome Canary page](http
 * [Canvas Paths](http://blogs.adobe.com/webplatform/2013/09/18/ios-7-safari-new-web-platform-features/)
 * [Clipping & Masking][clipping-and-masking]
 
-#### To enable Shapes and Blend Modes
+#### To enable Blend Modes
 1. Copy and paste `chrome://flags/#enable-experimental-web-platform-features` into the address bar, then press enter.
 2. Click the 'Enable' link within that section.
 3. Click the 'Relaunch Now' button at the bottom of the browser window.
