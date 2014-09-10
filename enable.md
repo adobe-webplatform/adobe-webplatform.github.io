@@ -98,11 +98,24 @@ Chrome Canary builds can be downloaded from the [Google Chrome Canary page](http
 Firefox can be downloaded from the [Firefox download page](http://www.mozilla.org/en-US/firefox/new/){:target="_blank"}.
 Features are enabled by default and do not require a flag.
 
-You can also check if features are enabled in the [Firefox nightly builds](https://nightly.mozilla.org/){:target="_blank"}.
+#### Features Available
+* [Blend Modes][blend-modes]
+* [Custom Properties][web-extensions]
+
+### Firefox Nightly
+
+Firefox Nightly can be downloaded from the [Firefox nightly builds page](https://nightly.mozilla.org/){:target="_blank"}.
 
 #### Features Available
 * [Blend Modes][blend-modes]
 * [Custom Properties][web-extensions]
+* [Filter Effects][filter-effects]
+
+#### To enable Filter Effects
+1. Copy and paste `about:config` into the address bar, then press enter.
+2. Click the button that says "I'll be careful, I promise!".
+3. Copy and paste `layout.css.filters.enabled` into the Search box.
+4. Double click on the `layout.css.filters.enabled` Preference Name. The Value should change to `true`.
 
 ### Opera
 
