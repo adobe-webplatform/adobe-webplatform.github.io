@@ -200,12 +200,12 @@ h4 {
 
 /* Color & Decoration */
 body {
-  color: #333333;
-  fill: #333333;
+  color: #333;
+  fill: #333;
   -webkit-font-smoothing: antialiased; }
 
 .content {
-  background-color: white; }
+  background-color: #fff; }
 
 a {
   text-decoration: none;
@@ -214,7 +214,7 @@ a {
     text-decoration: underline; }
 
 .post a {
-  color: #333333;
+  color: #333;
   text-decoration: none; }
 
 .header.page h1 {
@@ -224,10 +224,10 @@ a {
   background: rgba(255, 255, 255, 0.4); }
 
 .footer {
-  background: #333333;
-  color: white; }
+  background: #333;
+  color: #fff; }
   .footer h3 {
-    border-bottom: 1px solid white; }
+    border-bottom: 1px solid #fff; }
   .footer a {
     color: white;
     text-decoration: none; }
@@ -240,3 +240,15 @@ a {
   background: #eae9e5;
   background: url("/img/trianglify-background.svg"), url("/img/halftone.png");
   background-blend-mode: multiply; }
+
+/* Page Specific CSS */
+.filter-effects-codepen iframe {
+  margin: 1rem 0; }
+
+/* This breakpoint should correspond to the one defined in the CodePen, so that
+   when the CodePen changes its layout, the iframe height is updated. */
+@media (max-width: 590px) {
+  .filter-effects-codepen iframe {
+    height: 215px; } }
+
+/*# sourceMappingURL=main.css.map */
