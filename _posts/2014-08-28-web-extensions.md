@@ -37,4 +37,4 @@ To deepen your understanding, do check out the [CSS Custom Properties for Cascad
 
 You can learn more about the Extensible Web Community Group on their [W3C website](http://www.w3.org/community/nextweb/){:target="_blank"}.
 
-And we’ll be sharing more information and updates from our [blog](http://blogs.adobe.com/webplatform/) and [twitter](https://twitter.com/adobeweb) account.
+And we’ll be sharing more information and updates from our [blog](http://blogs.adobe.com/webplatform/) and [Twitter](https://twitter.com/adobeweb) account.
