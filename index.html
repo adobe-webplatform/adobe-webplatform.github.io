@@ -7,7 +7,8 @@ layout: home
   <div class="posts">
     {% for post in site.posts %}
       <article class="post">
-        <a href="{{site.baseurl}}{{post.url}}" style="background-image: url(img/{{ post.thumb }});">
+        <a href="{{site.baseurl}}{{post.url}}">
+          <img src="{{ site.baserrl }}/img/{{ post.thumb }}" alt="thumbnail">
           <h2>{{ post.title }}</h2>
         </a>
       </article>

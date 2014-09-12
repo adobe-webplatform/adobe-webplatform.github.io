@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 
+{% assign header_style = ".header { background: #{{page.bg}}; background: linear-gradient(#{{page.bg}}, #{{page.bg}}), url({{site.baseurl}}/img/halftone.png); background-blend-mode: multiply; }" | replace: "{{page.bg}}", page.bg | replace: "{{site.baseurl}}", site.baseurl %}
 {% include head.html %}
 
 <body class='page'>
@@ -12,8 +13,10 @@
         <polygon points="48.1,0 0,0 0,115.1 "/>
         <polygon points="65,42.4 95.6,115 75.6,115 66.4,91.9 44,91.9 "/>
     </svg></a>
-    <div class="header page fixed {% if page.full_image == null %}small{% endif %}" style="background: #{{page.bg}}; background: linear-gradient(#{{page.bg}}, #{{page.bg}}), url(/img/halftone.png); background-blend-mode: multiply;">
-        <div class='hero' style='{% if page.full_image %}background: url({{site.baseurl}}/img/{{page.full_image}}) no-repeat center center; background-size: contain;{% endif %}'></div>
+    {% if page.full_image %}<img class='hero' src='{{ site.baseurl }}/img/{{ page.full_image }}' alt='hero'>{% endif %}
+    <h1>{{page.title}}</h1>
+    <div class="header page fixed {% if page.full_image == null %}small{% endif %}" aria-hidden="true">
+        {% if page.full_image %}<img class='hero' src='{{ site.baseurl }}/img/{{ page.full_image }}' alt='hero'>{% endif %}
         <h1>{{page.title}}</h1>
     </div>
 </header>

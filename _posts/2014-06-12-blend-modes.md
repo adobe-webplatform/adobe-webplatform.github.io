@@ -40,6 +40,6 @@ As Dudley Storey says in [PhotoShop In The Browser: Understanding CSS Blend Mode
 
 To deepen your understanding, do check out the [Compositing and Blending Level 1](http://dev.w3.org/fxtf/compositing-1/){:target="_blank"} specification. There are a lot of examples to help clarify the technical talk.
 
-And to inspire you, check out Bennett Feely’s [article](http://bennettfeely.com/gradients/){:target="_blank"} about [background blend modes](http://dev.w3.org/fxtf/compositing-1/#propdef-background-blend-mode){:target="_blank"} and his CodePen.io [collection](http://codepen.io/collection/Kgshi/){:target="_blank"}, as well as the [Background Blend Modes](http://codepen.io/collection/Hcdol/){:target="_blank"} and [Blend Modes](http://codepen.io/collection/hfxiw/){:target="_blank"} collections from the Adobe Web Platform team.
+And to inspire you, check out Bennett Feely’s [article](http://bennettfeely.com/gradients/){:target="_blank"} about [background blend modes](http://dev.w3.org/fxtf/compositing-1/#propdef-background-blend-mode){:target="_blank"} and his CodePen [collection](http://codepen.io/collection/Kgshi/){:target="_blank"}, as well as the [Background Blend Modes](http://codepen.io/collection/Hcdol/){:target="_blank"} and [Blend Modes](http://codepen.io/collection/hfxiw/){:target="_blank"} collections from the Adobe Web Platform team.
 
-We’ll be sharing more information and updates from our [blog](http://blogs.adobe.com/webplatform/category/features/css-compositing/) and [twitter](https://twitter.com/adobeweb) account.
+We’ll be sharing more information and updates from our [blog](http://blogs.adobe.com/webplatform/category/features/css-compositing/) and [Twitter](https://twitter.com/adobeweb) account.
