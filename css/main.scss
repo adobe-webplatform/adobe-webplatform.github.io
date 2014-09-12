@@ -197,13 +197,17 @@ p, code, pre, blockquote {
   margin: 1rem 0;
 }
 
-figure, iframe {
-  margin: 1rem 0;
+figure {
+  margin: 2rem 0;
 }
 
 figcaption {
   font-size: 1rem;
   font-style: italic;
+}
+
+iframe {
+  margin: 1rem 0;
 }
 
 ol, ul {

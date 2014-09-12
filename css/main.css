@@ -158,12 +158,15 @@ h1, h2, h3, h4, h5, h6 {
 p, code, pre, blockquote {
   margin: 1rem 0; }
 
-figure, iframe {
-  margin: 1rem 0; }
+figure {
+  margin: 2rem 0; }
 
 figcaption {
   font-size: 1rem;
   font-style: italic; }
+
+iframe {
+  margin: 1rem 0; }
 
 ol, ul {
   margin: 1rem 3rem; }
