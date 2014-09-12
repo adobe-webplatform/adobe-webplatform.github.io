@@ -197,13 +197,17 @@ p, code, pre, blockquote {
   margin: 1rem 0;
 }
 
-figure, iframe {
+figure {
   margin: 2rem 0;
 }
 
 figcaption {
   font-size: 1rem;
   font-style: italic;
+}
+
+iframe {
+  margin: 1rem 0;
 }
 
 ol, ul {
@@ -313,4 +317,14 @@ a {
 
 .header.home {
   @include halftone($offbgcolor, '/img/trianglify-background.svg')
+}
+
+/* Page Specific CSS */
+
+.filter-effects-codepen iframe {
+  /* This breakpoint should correspond to the one defined in the CodePen, so
+     that when the CodePen changes its layout, the iframe height is updated. */
+  @media (max-width: 590px) {
+    height: 215px;
+  }
 }

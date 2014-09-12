@@ -22,8 +22,10 @@ Or you can use SVG filters to customize your own visual effects.
 
 It's all encoded in the [Filter Effects Specification](http://www.w3.org/TR/filter-effects/){:target="_blank"}. But first, let's check out a quick example of CSS filters. Play with the slider below:
 
-<p data-height="289" data-theme-id="0" data-slug-hash="KyEpe" data-default-tab="result" class='codepen'>See the pen <a href='http://codepen.io/adobe/pen/KyEpe/'>CSS Filters Example</a> by Adobe Web Platform (<a href='http://codepen.io/adobe'>@adobe</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
-<script async src="//codepen.io/assets/embed/ei.js"></script>
+<div class="filter-effects-codepen">
+  <p data-height="320" data-theme-id="0" data-slug-hash="KyEpe" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/adobe/pen/KyEpe/'>CSS Filters Example</a> by Adobe Web Platform (<a href='http://codepen.io/adobe'>@adobe</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
+  <script async src="//codepen.io/assets/embed/ei.js"></script>
+</div>
 
 ##When can I use it?
 
