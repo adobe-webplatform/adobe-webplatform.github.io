@@ -159,7 +159,7 @@ p, code, pre, blockquote {
   margin: 1rem 0; }
 
 figure, iframe {
-  margin: 2rem 0; }
+  margin: 1rem 0; }
 
 figcaption {
   font-size: 1rem;
@@ -243,12 +243,10 @@ a {
 
 /* Page Specific CSS */
 .filter-effects-codepen iframe {
-  margin: 1rem 0; }
-
-/* This breakpoint should correspond to the one defined in the CodePen, so that
-   when the CodePen changes its layout, the iframe height is updated. */
-@media (max-width: 590px) {
-  .filter-effects-codepen iframe {
-    height: 215px; } }
+  /* This breakpoint should correspond to the one defined in the CodePen, so
+     that when the CodePen changes its layout, the iframe height is updated. */ }
+  @media (max-width: 590px) {
+    .filter-effects-codepen iframe {
+      height: 215px; } }
 
 /*# sourceMappingURL=main.css.map */

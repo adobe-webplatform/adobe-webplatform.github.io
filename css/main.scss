@@ -198,7 +198,7 @@ p, code, pre, blockquote {
 }
 
 figure, iframe {
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 
 figcaption {
@@ -318,13 +318,9 @@ a {
 /* Page Specific CSS */
 
 .filter-effects-codepen iframe {
-  margin: 1rem 0;
-}
-
-/* This breakpoint should correspond to the one defined in the CodePen, so that
-   when the CodePen changes its layout, the iframe height is updated. */
-@media (max-width: 590px) {
-  .filter-effects-codepen iframe {
+  /* This breakpoint should correspond to the one defined in the CodePen, so
+     that when the CodePen changes its layout, the iframe height is updated. */
+  @media (max-width: 590px) {
     height: 215px;
   }
 }
