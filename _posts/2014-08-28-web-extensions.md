@@ -14,7 +14,7 @@ permalink: web-extensions
 
 Web Extensions allow developers to build features on top of browsers  without requiring them to be implemented  natively, in the browser.
 
-The Adobe Web Platform Team is excited about the web extension [CSS Custom Properties for Cascading Variables](http://dev.w3.org/csswg/css-variables/){:target="_blank"}. With some JavaScript, a web developer can create a custom property and assign it a default value. Those default values then cascade throughout the related style sheets. For example, here is some code that defines a default theme color, as well as the style for the first two headings. Anyone using those styles automatically inherits those styles.
+The Adobe Web Platform Team is excited about the web extension [CSS Custom Properties for Cascading Variables](http://dev.w3.org/csswg/css-variables/){:target="_blank"}. With some JavaScript, a web developer can create a custom property and assign it a default value. Those default values then cascade throughout the related style sheets. For example, here is some code that uses custom properties. You define a default theme color and heading variables in the :root element. Then, you apply those special variables to certain elements. Any HTML that uses elements styles automatically inherits their styles.
 
 <div style="border: solid rgb(69, 172, 203); font-size: 18px; font-weight: bold; border-width: .1em .1em .1em .8em; padding: .2em .6em;">
 <pre style="margin: 0; line-height: 125%">
