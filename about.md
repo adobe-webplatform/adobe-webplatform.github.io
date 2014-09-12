@@ -13,6 +13,7 @@ We start by looking at the platform itself, the standards and technologies that 
 We workshop these ideas in the open, develop them keeping with open web standards processes, and make contributions to open source browser engines. Browser implementations give designers and developers the chance to provide feedback, improving the final standardized form of the feature. 
 
 We try to focus our contributions and build expertise in specific areas of expressiveness:
+
   * Layout
   * Typography
   * Graphic Design
