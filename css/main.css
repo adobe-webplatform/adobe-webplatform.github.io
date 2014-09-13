@@ -12,9 +12,7 @@ html, body {
 .header {
   width: 100%;
   box-sizing: border-box;
-  padding: 4rem 0 2rem 0;
-  position: relative;
-  z-index: -2; }
+  padding: 4rem 0 2rem 0; }
   .header.home .logo {
     float: left;
     height: 7.2rem;
@@ -59,17 +57,18 @@ html, body {
 
 .home-nav {
   display: block;
-  position: fixed;
+  position: absolute;
   padding: .8rem 1rem 1rem;
   width: 2rem;
   height: 2rem;
   top: 0;
   left: 0;
-  z-index: -1; }
+  z-index: 1; }
   @media screen and (min-width: 700px) {
     .home-nav {
       /* Place on top only if it won't overlay text */
-      z-index: 1; } }
+      position: fixed;
+      z-index: 3; } }
 
 /* For large enough screens, enable a fixed-style header */
 @media screen and (min-width: 500px) and (min-height: 500px) {
@@ -81,6 +80,7 @@ html, body {
 
   .footer, .content {
     position: relative;
+    z-index: 2;
     /* hardware accelerate for smooth paint while device scrolling */
     -webkit-transform: translateZ(0);
     transform: translateZ(0); } }
