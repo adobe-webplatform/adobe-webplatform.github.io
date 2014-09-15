@@ -63,27 +63,30 @@ html, body {
       .header .hero {
         max-width: 420px; } }
   .header.fixed {
+    display: none; }
+
+/* For large enough screens, enable a fixed-style header */
+@media screen and (min-width: 500px) and (min-height: 500px) {
+  .header.fixed {
+    display: block;
     position: fixed;
     top: 0;
     left: 0; }
 
+  .footer, .content {
+    position: relative;
+    z-index: 2;
+    /* hardware accelerate for smooth paint while device scrolling */
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0); } }
 .footer {
-  padding: 40px 0 60px;
-  position: relative;
-  z-index: 2;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0); }
+  padding: 40px 0 60px; }
   .footer h3 {
     width: 100px; }
 
 .content {
   width: 100%;
   padding: 2rem 0 4rem;
-  position: relative;
-  z-index: 2;
-  /* hardware accelerate for smooth paint while device scrolling */
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
   /* prevent content overflow from causing side-scroll */
   overflow: hidden; }
 
