@@ -51,20 +51,6 @@ html, body { width: 100%; height: 100%; }
   &.page {
     &.small {
     }
-    .home-nav {
-      display: block;
-      position: fixed;
-      padding: .8rem 1rem 1rem;
-      width: 2rem;
-      height: 2rem;
-      top: 0;
-      left: 0;
-      z-index: 1;
-      @media screen and (min-width: 700px) {
-        /* Place on top only if it won't overlay text */
-        z-index: 3;
-      }
-    }
     &:not(.small) h1 {
       display: none;
       @media screen and (min-height: 430px) {
@@ -86,26 +72,51 @@ html, body { width: 100%; height: 100%; }
     position: fixed;
     top: 0;
     left: 0;
+    display: none;
+  }
+}
+
+.home-nav {
+  display: block;
+  position: absolute;
+  padding: .8rem 1rem 1rem;
+  width: 2rem;
+  height: 2rem;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  @media screen and (min-width: 700px) {
+    /* Place on top only if it won't overlay text */
+    position: fixed;
+    z-index: 3;
+  }
+}
+
+/* For large enough screens, enable a fixed-style header */
+@media screen and (min-width: 500px) and (min-height: 500px) {
+  .header:not(.fixed) {
+    visibility: hidden;
+  }
+  .header.fixed {
+    display: block;
+  }
+  .footer, .content {
+    position: relative;
+    z-index: 2;
+    /* hardware accelerate for smooth paint while device scrolling */
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
   }
 }
 
 .footer {
     padding: 40px 0 60px;
-    position: relative;
-    z-index: 2;
-    -webkit-transform: translateZ(0);
-    transform: translateZ(0);
     h3 { width: 100px; }
 }
 
 .content {
   width: 100%;
   padding: 2rem 0 4rem;
-  position: relative;
-  z-index: 2;
-  /* hardware accelerate for smooth paint while device scrolling */
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
   /* prevent content overflow from causing side-scroll */
   overflow: hidden;
 }
@@ -292,9 +303,10 @@ a {
     color: white;
     text-shadow: 2px 2px 2px #333;
   }
-  .home-nav {
-    background: rgba(255, 255, 255, 0.4);
-  }
+}
+
+.home-nav {
+  background: rgba(255, 255, 255, 0.4);
 }
 
 .footer {
