@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-trianglify
 title: About
 permalink: /about/
 bg: da727e
