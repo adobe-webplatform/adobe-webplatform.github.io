@@ -30,3 +30,4 @@ Our emphasis is on new expression on the web, connected with the technology that
 If you have feedback on this site, or want to team up to create a more expressive web, we'd love to hear from you. We want to be a conduit for designers and developers with big ideas of what the web is and can be.
 
   * Twitter: [@adobeweb](http://twitter.com/adobeweb/)
+  * Email: [webplatform@adobe.com](mailto:webplatform@adobe.com?subject=Hi, Web Platform Team!)
