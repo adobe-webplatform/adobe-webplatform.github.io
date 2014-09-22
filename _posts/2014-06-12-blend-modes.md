@@ -28,7 +28,15 @@ The Adobe Web Platform team is working on bringing blend modes to the HTML world
 
 ##When can I use it?
 
-Now in Chrome, Firefox, Opera and soon in Safari 8. For a view of current and upcoming browser support, check out [caniuse.com](http://caniuse.com/#search=blend-mode){:target="_blank"}.
+The background-blend-mode CSS property is available now in Safari, Firefox, Chrome, and Opera.
+
+The mix-blend-mode CSS property is available now in Safari and Firefox. In Chrome and Opera, it is behind an experimental features flag.
+
+The isolation CSS property is available now in Safari. In Chrome and Opera, it is behind an experimental features flag. It is not yet implemented in Firefox.
+
+For both background-blend-mode and mix-blend-mode, Safari is missing the hue, saturation, color, and luminosity blend modes.
+
+For a view of current and upcoming browser support, check out [caniuse.com](http://caniuse.com/#search=blend-mode){:target="_blank"}.
 
 Learn how to [enable this feature in popular browsers](http://webplatform.adobe.com/enable/).
 
