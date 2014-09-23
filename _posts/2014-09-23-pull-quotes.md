@@ -1,0 +1,44 @@
+---
+layout: page
+title:  "Pull Quotes"
+categories: project
+description: How do you emphasize important snippets of your written content?
+thumb: project_header/pull_quote_thumb.png
+full_image: project_header/pull_quote.png
+permalink: pull-quotes
+bg: E2E1B9
+---
+#Pull Quotes
+
+##What is it?
+
+With regions, you can use CSS properties to flow content into existing styled containers, regardless of their dimension or position on the page. Using regions, you can create visually appealing responsive layouts both for mobile and desktop content as shown in the "Orphaned Elephants" demo below.
+
+<figure>
+  <a href="http://webplatform.adobe.com/Demo-for-National-Geographic-Orphan-Elephants/">
+    <img src="{{site.baseurl}}/img/orphan_elephants_cover.jpg" alt="responsive design with regions and viewport units">
+  </a>
+  <figcaption>Responsive design with regions and viewport units. <a href="{{site.baseurl}}/enable/">Use Safari or WebKit Nightly</a> to view the <a href="http://webplatform.adobe.com/Demo-for-National-Geographic-Orphan-Elephants/">demo.</a></figcaption>
+</figure>
+
+The Adobe Web Platform team is contributing to the [CSS Regions Module Level 1](http://dev.w3.org/csswg/css-regions/){:target="_blank"} specification as well as the implementation in WebKit.
+
+##When can I use it?
+
+Now in Safari on both OS X and iOS and also in Internet Explorer on Windows. 
+
+For a view of current and upcoming browser support, check out [caniuse.com](http://caniuse.com/#search=regions){:target="_blank"}.
+
+Learn how to [enable this feature in popular browsers](http://webplatform.adobe.com/enable/) or you can use Francois Remy's 
+[CSS Regions polyfill](https://github.com/FremyCompany/css-regions-polyfill/){:target="_blank"} in unsupported browsers.
+
+##Where can I learn more?
+
+CJ Gammon's article [Killer Responsive Layouts With CSS Regions](http://www.smashingmagazine.com/2013/11/05/killer-responsive-layouts-with-css-regions/){:target="_blank"} provides a nice overview of CSS Regions concepts. In her article [CSS Regions Matter](http://sarasoueidan.com/blog/css-regions-matter/){:target="_blank"}, Sara Soueidan notices that CSS Regions are a fragmentation feature rather than a layout feature and from this perspective analyses some interesting use cases for them.
+
+Our samples of [regions on CodePen](http://codepen.io/collection/jabto/){:target="_blank"} are there to help you understand the basic CSS Regions concepts. For more advanced usage of CSS Regions, you can take a look at some of the samples put together by the Adobe Web Platform team: [National Geographic Forest Giant](http://adobe-webplatform.github.io/Demo-for-National-Geographic-Forest-Giant/browser/src/){:target="_blank"},
+ [Food Network Cupcakes](http://adobe-webplatform.github.io/Demo-for-Food-Network-Cupcakes/src/){:target="_blank"} and [Adaptive WebApp UI](http://webplatform.adobe.com/regions-adaptive/){:target="_blank"}.
+
+During a CSS regions pattern rodeo hosted by CodePen, Tyler Fry and Joshua Hibbert created some awesome regions demos. Tyler Fry won the contest with his [reading carousel](http://codepen.io/frytyler/pen/wdecC){:target="_blank"} made out of regions and transforms, and Joshua Hibbert created an [exploding book](http://codepen.io/joshnh/pen/KyxtH){:target="_blank"} featuring a nice hover effect when opening the book.
+
+We’ll be sharing more information and updates from our [blog](http://blogs.adobe.com/webplatform/category/features/css-regions/){:target="_blank"} and [Twitter](https://twitter.com/adobeweb){:target="_blank"} account.
