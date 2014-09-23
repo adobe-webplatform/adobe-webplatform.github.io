@@ -34,7 +34,7 @@ The [mix-blend-mode](https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-
 
 The [isolation](http://www.w3.org/TR/compositing-1/#isolation) CSS property is available now in Safari. In Chrome and Opera, it is behind an experimental features flag. It is not yet implemented in Firefox.
 
-For both background-blend-mode and mix-blend-mode, Safari is missing the hue, saturation, color, and luminosity blend modes (i.e. the [non-separable blend modes](http://www.w3.org/TR/compositing-1/#blendingnonseparable)).
+For both background-blend-mode and mix-blend-mode, Safari does not yet support the hue, saturation, color, and luminosity blend modes (i.e. the [non-separable blend modes](http://www.w3.org/TR/compositing-1/#blendingnonseparable)).
 
 For a view of current and upcoming browser support, check out [caniuse.com](http://caniuse.com/#search=blend-mode){:target="_blank"}.
 
