@@ -261,4 +261,22 @@ a {
     .filter-effects-codepen iframe {
       height: 215px; } }
 
+/* Pull quotes CSS */
+aside.pull-quote {
+  font-size: 1.5em;
+  width: 50%;
+  color: orange;
+  background: rgba(150, 150, 150, 0.2);
+  position: relative; }
+
+aside.pull-quote.left {
+  float: left; }
+
+aside.pull-quote.right {
+  float: right; }
+
+aside.pull-quote.pseudo:before {
+  width: 100%;
+  content: attr(data-snippet); }
+
 /*# sourceMappingURL=main.css.map */
