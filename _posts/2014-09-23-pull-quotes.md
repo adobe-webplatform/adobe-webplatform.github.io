@@ -11,54 +11,59 @@ bg: E2E1B9
 #Pull Quotes
 
 ##What is it?
+A pull quote is a typographical element in which an excerpt of an article's content is duplicated inside the article's page to emphasise an idea and to incite the interest of readers. The pull quote is usually styled differently than the rest of the article and positioned to stand out from the page content.
 
-A pull quote is a typographical element in which an excerpt of an article's content is duplicated inside the article's page to emphasise an idea and to incite the interest of readers. The pull quote is usually styled differently than the rest of the article and positioned to stand out in the page.
+The pull quote concept should not be confused with the block quote concept. A pull quotes is purely a graphic elements that shouldn't be included inside the text body of the article. On the other hand, a block quote is a visual technique used to display a quotation as a part of the main article's flow.
 
-The pull quote concept should not be confused with the block quote concept. A pull quotes is purely a graphic elements that shouldn't appear inside the main content of the article. On the other hand, a block quote is a visual technique that's used to display a quotation as a part of the main article's flow.
+<figure>
+  <a href="http://codepen.io/adobe/full/oDLwm">
+  <img src="/img/pull-quotes/pull-quotes-screenshot.png" alt="Pull quotes article screenshot"></img>
+  </a>
+  <figcaption>
+    Article containing a couple of pull quotes implemented using different techniques. You can use a <a href="http://caniuse.com/#feat=css-shapes" target="_blank">shapes-enabled browser</a> to view this <a href="http://codepen.io/adobe/full/oDLwm">demo</a> on CodePen.
+  </figcaption>
+</figure>
 
 ##The semantics of a pull quote
-###The aside element
-The HTML5 specification defines the aside element that's supposed to include content related to the main article but separated from it. Here is how the HTML5 WHATWG spec defines it (this is a blockquote):
+The HTML5 specification defines the *[aside][aside]{:target="_blank"}* element that's supposed to include content related to the main article but separated from it (notice this is a block quote):
 
-> The aside element represents a section of a page that consists of content that is tangentially related to the content around
-> the aside element, and which could be considered separate from that content. Such sections are often represented as sidebars
-> in printed typography.
-> The element can be used for typographical effects like pull quotes or sidebars, for advertising, for groups of nav elements,
-> and for other content that is considered separate from the main content of the page.
+<blockquote class="pull-quotes-block-quote"><span class="snippet">The <i>aside</i> element represents a section of a page that consists of content that is tangentially related to the content around the <i>aside</i> element, and which could be considered separate from that content. Such sections are often represented as sidebars in printed typography. The element can be used for typographical effects like pull quotes or sidebars, for advertising, for groups of nav elements, and for other content that is considered separate from the main content of the page.</span></blockquote>
 
-Considering the aside element was created to achieve typographical effects like pull-quotes it's a good idea to use it instead of generic non-semantical divs. The aside element is also accessibility friendly because it allows screen readers and other similar applications to skip the pull quotes when interpreting the page.
+<aside class="pull-quote right"><span class="snippet">The problem with using this element is content duplication.</span></aside>
 
-###The problem
-<aside class="pull-quote right">A pull quote gets its content from the text of the article</aside>
+Considering *aside* was created to achieve typographical effects like pull-quotes it's a good idea to use it instead of generic non-semantical divs. The *aside* element is also accessibility friendly because it allows screen readers and other similar applications to skip the pull quotes when interpreting the page.
 
-The problem with using this element is content duplication. A pull quote gets its content from the text of the article so you'll have the same snippet appear twice in the document - once inside the article and once inside the aside element. If this is not a problem for you, using the aside element is the right choice.
+The problem with using this element on its own is content duplication. A pull quote gets its content from the text of the article so you'll have the same snippet appear twice in the document - once inside the article and once inside the *aside* element. If this is not a problem for you, using just *aside* is the right choice.
 
-~~~ CSS
-aside.pull-quote {
-  font-size: 1.5em;
-  width: 50%;
-  color: orange;
-  background: rgba(150, 150, 150, 0.2);
-  position: relative;
-}
-~~~
+<aside class="pull-quote pseudo left" data-snippet="To overcome this issue we will use the ::before pseudo-element and the content CSS property."></aside>
+To overcome this issue we will use the *::before* pseudo-element and the *content* CSS property. Every pull quote element will generate a before pseudo-element that will set content to the value of an attribute called "data-snippet". This way we can keep the *aside* element empty and the content of the pull quote will be generated by the browser from the data attribute.
 
-###The solution
-
-<aside class="pull-quote pseudo left" data-snippet="To overcome this issue we will use the before pseudo-element"></aside>
-To overcome this issue we will use the before pseudo-element and the content CSS property. Every pull quote element will generate a before pseudo-element that will set content to the value of an attribute called "data-snippet". This way we can keep the aside element empty and the content of the pull quote will be generated by the browser from the data attribute.
-
-~~~ HTML
-<aside class="pull-quote pseudo" data-snippet="Snippet"></aside>
-~~~
-
-~~~ CSS
-aside.pull-quote.pseudo:before {
-  width: 100%;
-  content: attr(data-snippet);
-}
-~~~
+Another solution for this problem is to use a special script that detects the snippets inside the article and duplicates them inside new elements that become pull quotes.
 
 ##Adding some spice
+A successful pull-quote doesn't only depend on the text snippet it's trying to highlight but also on the position in the page and the style used to make it beautiful and to blend naturally with the rest of the article. The classical techniques used are:
+
+- increase the font size to something larger than the body
+- change the style of the text to stand out in the page (for example by using a different font color or font family)
+- use a quotation symbol inside the pull quote box to suggest the text is extracted from the article
+- float the pull quote left or right inside the article to blend it easier with the content
+- position the pull quote around the paragprah containing the snippet for clarity
+
+Besides the list above, there's a new trick available that can make pull quotes blend even nicer with your articles. By using CSS Shapes you can forget about rectangular pull quotes and use any shape you consider appropiate for each article. You can see a [live demo][demo]{:target="_blank"} of this feature on Adobe's CodePen page.
+
+##Where can I learn more?
+There are a lot of ways pull quotes can be customized and used to increase the appealing of an article. They work very well with multi-column elements and they can be styled very nicely using modern CSS features such as Web Fonts and [CSS Shapes][shapes]. Also, you can separate the article flow from the pull quotes content by using [CSS Regions][regions] and defining a separate region chain for the pull quotes boxes. You can find out more about these technologies from here:
+
+- [Magazine Designing][magazine]{:target="_blank"} - An article explaining how to create pull quotes in a multi-column document
+- [CSS Tricks][css-tricks]{:target="_blank"} - An article describing a Javascript solution for the content duplication problem
+- [CSS Shapes][shapes] - Adobe's page dedicated to CSS Shapes where you can learn more about using this feature.
+- [CSS Regions][regions] - Adobe's page dedicated to CSS Regions where you can learn more about using this feature.
+
+[demo]: http://codepen.io/adobe/full/oDLwm
+[aside]: https://html.spec.whatwg.org/multipage/semantics.html#the-aside-element
+[css-tricks]: http://css-tricks.com/better-pull-quotes
+[magazine]: http://www.magazinedesigning.com/pull-quotes
+[shapes]: http://webplatform.adobe.com/shapes
+[regions]: http://webplatform.adobe.com/regions
 
 

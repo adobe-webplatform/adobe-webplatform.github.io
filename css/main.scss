@@ -343,22 +343,44 @@ a {
 
 /* Pull quotes CSS */
 aside.pull-quote {
-  font-size: 1.5em;
+  font-size: 1.2em;
   width: 50%;
   color: orange;
-  background: rgba(150, 150, 150, 0.2);
   position: relative;
+}
+
+aside.pull-quote .snippet,
+blockquote.pull-quotes-block-quote .snippet {
+  margin-left: 1em;
 }
 
 aside.pull-quote.left {
   float: left;
+  margin-left: -2em;
 }
 
 aside.pull-quote.right {
   float: right;
+  margin-right: -2em;
 }
 
-aside.pull-quote.pseudo:before {
-  width: 100%;
+aside.pull-quote.pseudo:after {
   content: attr(data-snippet);
+  margin-left: 1em;
+}
+
+aside.pull-quote:before,
+blockquote.pull-quotes-block-quote:after {
+  content: "“";
+  left: 0px;
+  top: 0px;
+  position: absolute;
+  font-size: 2em;
+  color: orange;
+}
+
+blockquote.pull-quotes-block-quote {
+  position: relative;
+  padding: 0.5em;
+  font-size: 0.9em;
 }
