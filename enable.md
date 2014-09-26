@@ -21,7 +21,7 @@ Many of the features we are actively implementing can be used today in various b
 
 * [iOS 8 Safari](#ios8-safari)
 * [iOS 7 Safari](#ios7-safari)
-* [Safari 7](#safari7)
+* [Safari 6.2 and 7.1](#safari7)
 * [Chrome](#chrome)
 * [Chrome Canary](#chrome-canary)
 * [Firefox](#firefox)
@@ -50,12 +50,14 @@ Features are enabled by default on iOS 7 Safari and do not require a flag.
 * [Clipping & Masking][clipping-and-masking]
 * [Filter Effects][filter-effects]
 
-### Desktop Safari 7 <a name="safari7">&nbsp;</a>
+### Desktop Safari 6.2 and 7.1 <a name="safari7">&nbsp;</a>
 
-Features are enabled by default on Desktop Safari 7 and do not require a flag.
+Features are enabled by default on Desktop Safari 6.2 and 7.1 and do not require a flag.
 
 #### Features Available
+* [Shapes][shapes]
 * [Regions][regions]
+* [Blend Modes][blend-modes]
 * [Canvas Paths](http://blogs.adobe.com/webplatform/2013/09/18/ios-7-safari-new-web-platform-features/)
 * [Clipping & Masking][clipping-and-masking]
 * [Filter Effects][filter-effects]
