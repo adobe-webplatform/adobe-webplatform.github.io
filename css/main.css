@@ -14,24 +14,35 @@ html, body {
   box-sizing: border-box;
   padding: 4rem 0 2rem 0; }
   .header.home .logo {
-    float: left;
-    height: 7.2rem;
-    max-width: 8.15rem;
+    height: 4rem;
+    max-width: 4rem;
     /* fix buggy width: auto behavior */
-    margin: 0 1.6rem 1rem 0; }
-    @media screen and (min-width: 515px) and (min-height: 570px) {
+    margin: 0 1rem 0.8rem 0; }
+    @media (min-width: 550px) {
       .header.home .logo {
-        height: 14.4rem;
-        max-width: 16.3rem; } }
-  .header.home h1 {
-    float: left;
-    font-size: 3rem;
-    line-height: .8;
+        float: left; } }
+  .header.home .title .team, .header.home .title .byline {
     margin: 0; }
-    @media screen and (min-width: 515px) and (min-height: 570px) {
-      .header.home h1 {
-        font-size: 6rem; } }
-  .header.home ::after {
+  @media (min-width: 550px) {
+    .header.home .title {
+      float: left; } }
+  .header.home .nav {
+    display: inline-block;
+    margin: 1.2rem 1.2rem 1.6rem 0;
+    border-top-width: 1px;
+    border-top-style: solid;
+    padding-top: 1em; }
+    .header.home .nav li {
+      margin-left: 1em;
+      display: inline-block; }
+      .header.home .nav li:first-child {
+        margin-left: 0; }
+    @media (min-width: 550px) {
+      .header.home .nav {
+        padding: 0;
+        border: none;
+        float: right; } }
+  .header.home::after {
     content: '';
     display: table;
     clear: both; }
@@ -149,9 +160,13 @@ body {
   font-size: 1.25rem;
   line-height: 1.44; }
 
-.header h1 {
-  text-transform: uppercase; }
+.header.home {
+  font-size: 1.2rem;
+  line-height: 1; }
+  .header.home h1 {
+    font-size: 2em; }
 .header.page h1 {
+  text-transform: uppercase;
   text-align: center;
   font-size: 4.5rem;
   line-height: 0.88; }
@@ -228,6 +243,8 @@ a {
   color: #333;
   text-decoration: none; }
 
+.header.home h1, .header.home a, .header.home p {
+  color: black; }
 .header.page h1 {
   color: white;
   text-shadow: 2px 2px 2px #333; }
