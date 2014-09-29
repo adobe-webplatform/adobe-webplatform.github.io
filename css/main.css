@@ -12,29 +12,35 @@ html, body {
 .header {
   width: 100%;
   box-sizing: border-box;
-  padding: 4rem 0 2rem 0; }
+  padding: 2rem 0 2rem 0; }
   .header.home .logo {
-    float: left;
-    height: 7.2rem;
-    max-width: 8.15rem;
+    height: 4rem;
+    max-width: 4rem;
     /* fix buggy width: auto behavior */
-    margin: 0 1.6rem 1rem 0; }
-    @media screen and (min-width: 515px) and (min-height: 570px) {
-      .header.home .logo {
-        height: 14.4rem;
-        max-width: 16.3rem; } }
-  .header.home h1 {
-    float: left;
-    font-size: 3rem;
-    line-height: .8;
-    margin: 0; }
-    @media screen and (min-width: 515px) and (min-height: 570px) {
-      .header.home h1 {
-        font-size: 6rem; } }
-  .header.home ::after {
+    margin: 0 1rem 0.4rem 0;
+    float: left; }
+  .header.home .title {
+    display: inline-block; }
+    .header.home .title .team, .header.home .title .byline {
+      margin: 0; }
+  .header.home .nav {
+    display: none;
+    float: right;
+    margin: 1.2rem 1.2rem 1.6rem 0; }
+    .header.home .nav li {
+      margin-left: 1em;
+      display: inline-block; }
+      .header.home .nav li:first-child {
+        margin-left: 0; }
+  .header.home::after {
     content: '';
     display: table;
     clear: both; }
+  @media (min-width: 550px) {
+    .header.home {
+      padding-top: 4rem; }
+      .header.home .nav {
+        display: inline-block; } }
   .header.page:not(.small) h1 {
     display: none; }
     @media screen and (min-height: 430px) {
@@ -149,9 +155,13 @@ body {
   font-size: 1.25rem;
   line-height: 1.44; }
 
-.header h1 {
-  text-transform: uppercase; }
+.header.home {
+  font-size: 1.2rem;
+  line-height: 1; }
+  .header.home h1 {
+    font-size: 2em; }
 .header.page h1 {
+  text-transform: uppercase;
   text-align: center;
   font-size: 4.5rem;
   line-height: 0.88; }
@@ -228,6 +238,8 @@ a {
   color: #333;
   text-decoration: none; }
 
+.header.home h1, .header.home a, .header.home p {
+  color: black; }
 .header.page h1 {
   color: white;
   text-shadow: 2px 2px 2px #333; }

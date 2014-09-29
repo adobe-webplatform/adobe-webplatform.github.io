@@ -18,34 +18,46 @@
 /* Layout */
 html, body { width: 100%; height: 100%; }
 
+$homeFontSize: 1.2rem;
+
 .header {
   width: 100%;
   box-sizing: border-box;
-  padding: 4rem 0 2rem 0;
+  padding: 2rem 0 2rem 0;
   &.home {
+
     .logo {
+      height: $homeFontSize * 10 / 3;
+      max-width: $homeFontSize * 10 / 3; /* fix buggy width: auto behavior */
+      margin: 0 1rem 0.4rem 0;
       float: left;
-      height: 7.2rem;
-      max-width: 8.15rem; /* fix buggy width: auto behavior */
-      margin: 0 1.6rem 1rem 0;
-      @media screen and (min-width: 515px) and (min-height: 570px) {
-        height: 14.4rem;
-        max-width: 16.3rem;
+    }
+    .title {
+      display: inline-block;
+      .team, .byline {
+        margin: 0;
       }
     }
-    h1 {
-      float: left;
-      font-size: 3rem;
-      line-height: .8;
-      @media screen and (min-width: 515px) and (min-height: 570px) {
-        font-size: 6rem;
+    .nav {
+      display: none;
+      float: right;
+      margin: $homeFontSize $homeFontSize $homeFontSize * 4 / 3 0;
+      li {
+        margin-left: 1em;
+        &:first-child {
+          margin-left: 0;
+        }
+        display: inline-block;
       }
-      margin: 0;
     }
-    ::after {
+    &::after {
       content: '';
       display: table;
       clear: both;
+    }
+    @media (min-width: 550px) {
+      padding-top: 4rem;
+      .nav { display: inline-block; }
     }
   }
   &.page {
@@ -186,10 +198,15 @@ body {
 }
 
 .header {
-  h1 {
-    text-transform: uppercase;
+  &.home {
+    font-size: $homeFontSize;
+    line-height: 1;
+    h1 {
+      font-size: 2em;
+    }
   }
   &.page h1 {
+    text-transform: uppercase;
     text-align: center;
     font-size: 4.5rem;
     line-height: 0.88;
@@ -266,6 +283,7 @@ h4 {
 }
 
 /* Color & Decoration */
+$headerColor: #000;
 $color: #333;
 $linkcolor: #0074d9;
 
@@ -298,10 +316,15 @@ a {
   text-decoration: none;
 }
 
-.header.page {
-  h1 {
-    color: white;
-    text-shadow: 2px 2px 2px #333;
+.header {
+  &.home {
+    h1, a, p { color: black; }
+  }
+  &.page {
+    h1 {
+      color: white;
+      text-shadow: 2px 2px 2px #333;
+    }
   }
 }
 
