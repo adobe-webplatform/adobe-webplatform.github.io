@@ -20,7 +20,7 @@ html, body {
     margin: 0 1rem 0.4rem 0;
     float: left; }
   .header.home .title {
-    display: inline-block; }
+    float: left; }
     .header.home .title .team, .header.home .title .byline {
       margin: 0; }
   .header.home .nav {
