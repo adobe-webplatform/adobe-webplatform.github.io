@@ -23,30 +23,25 @@ $homeFontSize: 1.2rem;
 .header {
   width: 100%;
   box-sizing: border-box;
-  padding: 4rem 0 2rem 0;
+  padding: 2rem 0 2rem 0;
   &.home {
+
     .logo {
       height: $homeFontSize * 10 / 3;
       max-width: $homeFontSize * 10 / 3; /* fix buggy width: auto behavior */
-      margin: 0 1rem 0.8rem 0;
-      @media (min-width: 550px) {
-        float: left;
-      }
+      margin: 0 1rem 0.4rem 0;
+      float: left;
     }
     .title {
+      display: inline-block;
       .team, .byline {
         margin: 0;
       }
-      @media (min-width: 550px) {
-        float: left;
-      }
     }
     .nav {
-      display: inline-block;
+      display: none;
+      float: right;
       margin: $homeFontSize $homeFontSize $homeFontSize * 4 / 3 0;
-      border-top-width: 1px;
-      border-top-style: solid;
-      padding-top: 1em;
       li {
         margin-left: 1em;
         &:first-child {
@@ -54,16 +49,15 @@ $homeFontSize: 1.2rem;
         }
         display: inline-block;
       }
-      @media (min-width: 550px) {
-        padding: 0;
-        border: none;
-        float: right;
-      }
     }
     &::after {
       content: '';
       display: table;
       clear: both;
+    }
+    @media (min-width: 550px) {
+      padding-top: 4rem;
+      .nav { display: inline-block; }
     }
   }
   &.page {
