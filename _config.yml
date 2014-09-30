@@ -1,6 +1,6 @@
 # Site settings
 title: Adobe Web Platform Team
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "The Adobe Web Platform Team mission is to create a more expressive web. Here, we give a broad view into our different projects. Some projects will make their way into browsers, web standards, open source projects, and Adobe tools."
 baseurl: ""
 url: "http://webplatform.adobe.com"
 

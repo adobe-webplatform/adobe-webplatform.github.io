@@ -12,42 +12,35 @@ html, body {
 .header {
   width: 100%;
   box-sizing: border-box;
-  padding: 4rem 0 2rem 0; }
+  padding: 2rem 0 2rem 0; }
   .header.home .logo {
-    float: left;
-    height: 7.2rem;
-    max-width: 8.15rem;
+    height: 4rem;
+    max-width: 4rem;
     /* fix buggy width: auto behavior */
-    margin: 0 1.6rem 1rem 0; }
-    @media screen and (min-width: 515px) and (min-height: 570px) {
-      .header.home .logo {
-        height: 14.4rem;
-        max-width: 16.3rem; } }
-  .header.home h1 {
-    float: left;
-    font-size: 3rem;
-    line-height: .8;
-    margin: 0; }
-    @media screen and (min-width: 515px) and (min-height: 570px) {
-      .header.home h1 {
-        font-size: 6rem; } }
-  .header.home ::after {
+    margin: 0 1rem 0.4rem 0;
+    float: left; }
+  .header.home .title {
+    float: left; }
+    .header.home .title .team, .header.home .title .byline {
+      margin: 0; }
+  .header.home .nav {
+    display: none;
+    float: right;
+    margin: 1.2rem 1.2rem 1.6rem 0; }
+    .header.home .nav li {
+      margin-left: 1em;
+      display: inline-block; }
+      .header.home .nav li:first-child {
+        margin-left: 0; }
+  .header.home::after {
     content: '';
     display: table;
     clear: both; }
-  .header.page .home-nav {
-    display: block;
-    position: fixed;
-    padding: .8rem 1rem 1rem;
-    width: 2rem;
-    height: 2rem;
-    top: 0;
-    left: 0;
-    z-index: 1; }
-    @media screen and (min-width: 700px) {
-      .header.page .home-nav {
-        /* Place on top only if it won't overlay text */
-        z-index: 3; } }
+  @media (min-width: 550px) {
+    .header.home {
+      padding-top: 4rem; }
+      .header.home .nav {
+        display: inline-block; } }
   .header.page:not(.small) h1 {
     display: none; }
     @media screen and (min-height: 430px) {
@@ -65,25 +58,46 @@ html, body {
   .header.fixed {
     position: fixed;
     top: 0;
-    left: 0; }
+    left: 0;
+    display: none; }
 
+.home-nav {
+  display: block;
+  position: absolute;
+  padding: .8rem 1rem 1rem;
+  width: 2rem;
+  height: 2rem;
+  top: 0;
+  left: 0;
+  z-index: 1; }
+  @media screen and (min-width: 700px) {
+    .home-nav {
+      /* Place on top only if it won't overlay text */
+      position: fixed;
+      z-index: 3; } }
+
+/* For large enough screens, enable a fixed-style header */
+@media screen and (min-width: 500px) and (min-height: 500px) {
+  .header:not(.fixed) {
+    visibility: hidden; }
+
+  .header.fixed {
+    display: block; }
+
+  .footer, .content {
+    position: relative;
+    z-index: 2;
+    /* hardware accelerate for smooth paint while device scrolling */
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0); } }
 .footer {
-  padding: 40px 0 60px;
-  position: relative;
-  z-index: 2;
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0); }
+  padding: 40px 0 60px; }
   .footer h3 {
     width: 100px; }
 
 .content {
   width: 100%;
   padding: 2rem 0 4rem;
-  position: relative;
-  z-index: 2;
-  /* hardware accelerate for smooth paint while device scrolling */
-  -webkit-transform: translateZ(0);
-  transform: translateZ(0);
   /* prevent content overflow from causing side-scroll */
   overflow: hidden; }
 
@@ -141,9 +155,13 @@ body {
   font-size: 1.25rem;
   line-height: 1.44; }
 
-.header h1 {
-  text-transform: uppercase; }
+.header.home {
+  font-size: 1.2rem;
+  line-height: 1; }
+  .header.home h1 {
+    font-size: 2em; }
 .header.page h1 {
+  text-transform: uppercase;
   text-align: center;
   font-size: 4.5rem;
   line-height: 0.88; }
@@ -158,12 +176,15 @@ h1, h2, h3, h4, h5, h6 {
 p, code, pre, blockquote {
   margin: 1rem 0; }
 
-figure, iframe {
+figure {
   margin: 2rem 0; }
 
 figcaption {
   font-size: 1rem;
   font-style: italic; }
+
+iframe {
+  margin: 1rem 0; }
 
 ol, ul {
   margin: 1rem 3rem; }
@@ -200,12 +221,12 @@ h4 {
 
 /* Color & Decoration */
 body {
-  color: #333333;
-  fill: #333333;
+  color: #333;
+  fill: #333;
   -webkit-font-smoothing: antialiased; }
 
 .content {
-  background-color: white; }
+  background-color: #fff; }
 
 a {
   text-decoration: none;
@@ -214,20 +235,23 @@ a {
     text-decoration: underline; }
 
 .post a {
-  color: #333333;
+  color: #333;
   text-decoration: none; }
 
+.header.home h1, .header.home a, .header.home p {
+  color: black; }
 .header.page h1 {
   color: white;
   text-shadow: 2px 2px 2px #333; }
-.header.page .home-nav {
+
+.home-nav {
   background: rgba(255, 255, 255, 0.4); }
 
 .footer {
-  background: #333333;
-  color: white; }
+  background: #333;
+  color: #fff; }
   .footer h3 {
-    border-bottom: 1px solid white; }
+    border-bottom: 1px solid #fff; }
   .footer a {
     color: white;
     text-decoration: none; }
@@ -240,3 +264,13 @@ a {
   background: #eae9e5;
   background: url("/img/trianglify-background.svg"), url("/img/halftone.png");
   background-blend-mode: multiply; }
+
+/* Page Specific CSS */
+.filter-effects-codepen iframe {
+  /* This breakpoint should correspond to the one defined in the CodePen, so
+     that when the CodePen changes its layout, the iframe height is updated. */ }
+  @media (max-width: 590px) {
+    .filter-effects-codepen iframe {
+      height: 215px; } }
+
+/*# sourceMappingURL=main.css.map */

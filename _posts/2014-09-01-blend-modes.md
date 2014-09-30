@@ -17,7 +17,7 @@ You can use blend modes to mix the content of an element with everything behind 
 You may have already seen the advanced blend modes before in Photoshop: color, color-burn, color-dodge, darken, difference, exclusion, hard-light, hue, lighten, luminosity, multiply, normal, overlay, saturation, screen, soft-light. If not, don't worry, here is an example:
 
 <figure>
-  <a href="/img/css-blend-modes.png" target="_blank">
+  <a href="http://codepen.io/adobe/pen/iAunb">
     <img src="/img/css-blend-modes.png" alt="CSS Blend Modes Example">
   </a>
   <figcaption>The "CSS Blend Modes" text from the image above is gray, but it uses the <a href="http://dev.w3.org/fxtf/compositing-1/#blendingdifference" target="_blank">difference blend mode</a> to blend with the flower, and the result is really compelling. Check out this <a href="http://codepen.io/adobe/pen/iAunb">pen</a> to see it in action.</figcaption>
@@ -28,7 +28,15 @@ The Adobe Web Platform team is working on bringing blend modes to the HTML world
 
 ##When can I use it?
 
-Now in Chrome, Firefox, Opera and soon in Safari 8. For a view of current and upcoming browser support, check out [caniuse.com](http://caniuse.com/#search=blend-mode){:target="_blank"}.
+The [background-blend-mode](https://developer.mozilla.org/en-US/docs/Web/CSS/background-blend-mode) CSS property is available now in Safari, Firefox, Chrome, and Opera.
+
+The [mix-blend-mode](https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode) CSS property is available now in Safari and Firefox. In Chrome and Opera, it is behind an experimental features flag.
+
+The [isolation](http://www.w3.org/TR/compositing-1/#isolation) CSS property is available now in Safari. In Chrome and Opera, it is behind an experimental features flag. It is not yet implemented in Firefox.
+
+For both background-blend-mode and mix-blend-mode, Safari does not yet support the hue, saturation, color, and luminosity blend modes (i.e. the [non-separable blend modes](http://www.w3.org/TR/compositing-1/#blendingnonseparable)).
+
+For a view of current and upcoming browser support, check out [caniuse.com](http://caniuse.com/#search=blend-mode){:target="_blank"}.
 
 Learn how to [enable this feature in popular browsers](http://webplatform.adobe.com/enable/).
 
