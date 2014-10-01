@@ -1,0 +1,17 @@
+{% comment %}
+Valid browser names are id's in flat-icons
+internet-explorer, chrome, firefox, safari, opera, ios, android
+{% endcomment %}
+<table class="browser-support">
+<tr>
+{% for browser in page.browser_support %}
+    {% assign icon = browser.name | downcase | replace:' ','-' %}
+    <td><img src="{{ site.baseurl }}/img/browser-logos/flat-logos.svg#{{ icon }}" alt="{{ browser.name }}" title="{{ browser.name }}"></td>
+{% endfor %}
+</tr>
+<tr>
+{% for browser in page.browser_support %}
+    <td class="{{ browser.support }}">{{ browser.version }}</td>
+{% endfor %}
+</tr>
+</table>

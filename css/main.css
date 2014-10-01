@@ -3,6 +3,7 @@
  * * Typography
  * * Color & Decoration
  * * Images & Background Images
+ * * Page/Construct-specific
  */
 /* Layout */
 html, body {
@@ -265,12 +266,32 @@ a {
   background: url("/img/trianglify-background.svg"), url("/img/halftone.png");
   background-blend-mode: multiply; }
 
-/* Page Specific CSS */
+/* Page/Construct Specific CSS */
 .filter-effects-codepen iframe {
   /* This breakpoint should correspond to the one defined in the CodePen, so
      that when the CodePen changes its layout, the iframe height is updated. */ }
   @media (max-width: 590px) {
     .filter-effects-codepen iframe {
       height: 215px; } }
+
+/* Browser-Support */
+.browser-support td {
+  box-sizing: border-box;
+  max-height: 1em;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  padding: 0.25em 0.5em;
+  text-align: center;
+  vertical-align: middle; }
+.browser-support tr:first-child td {
+  padding-top: 0.4em; }
+.browser-support tr:first-child td:nth-child(2n + 1) {
+  background-color: #eee; }
+.browser-support .support {
+  background-color: #8fa971; }
+.browser-support .partial-support {
+  background-color: #e8c373; }
+.browser-support .no-support {
+  background-color: #d87363; }
 
 /*# sourceMappingURL=main.css.map */

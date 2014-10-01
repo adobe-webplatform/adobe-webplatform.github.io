@@ -3,6 +3,7 @@
  * * Typography
  * * Color & Decoration
  * * Images & Background Images
+ * * Page/Construct-specific
  */
 
 @mixin halftone($color, $image: 'inherit') {
@@ -354,12 +355,47 @@ a {
   @include halftone($offbgcolor, '/img/trianglify-background.svg')
 }
 
-/* Page Specific CSS */
+/* Page/Construct Specific CSS */
 
 .filter-effects-codepen iframe {
   /* This breakpoint should correspond to the one defined in the CodePen, so
      that when the CodePen changes its layout, the iframe height is updated. */
   @media (max-width: 590px) {
     height: 215px;
+  }
+}
+
+/* Browser-Support */
+
+$support-color: lighten(desaturate(#84b24e, 15), 5);
+$partial-support-color: desaturate(#fccb5f, 25);
+$no-support-color: desaturate(#f0614a, 25);
+
+.browser-support {
+  td {
+    box-sizing: border-box;
+    max-height: 1em;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    padding: 0.25em 0.5em;
+    text-align: center;
+    vertical-align: middle;
+  }
+  tr:first-child {
+    td {
+      padding-top: 0.4em;
+    }
+    td:nth-child(2n + 1) {
+      background-color: #eee;
+    }
+  }
+  .support {
+    background-color: $support-color;
+  }
+  .partial-support {
+    background-color: $partial-support-color;
+  }
+  .no-support {
+    background-color: $no-support-color;
   }
 }
