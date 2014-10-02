@@ -30,11 +30,11 @@ Pull quotes originated in print, and are still used extensively in magazines and
 Much of what you need to create pull-quotes on the web today is already in place. A successful pull quote does not only depend on the text snippet it is trying to highlight but also on the position in the page and the style used. Some typical ways to adjust content are to float them, increase the font size to something larger than the body, use a different font color or use a different font family. Using a quotation symbol inside the pull quote will emphasize that the text is extracted from the article.
 
 <figure>
-  <a href="http://codepen.io/adobe/full/oDLwm">
-  <img src="/img/pull-quotes/pull-quotes-screenshot.png" alt="Pull quotes article screenshot"></img>
+  <a href="http://codepen.io/adobe/full/oDLwm" target="_blank">
+    <img src="/img/pull-quotes/pull-quotes-screenshot.png" alt="Pull quotes article screenshot"></img>
   </a>
   <figcaption>
-    Article containing a couple of responsive pull quotes implemented using different techniques. You can view this <a href="http://codepen.io/adobe/full/oDLwm">demo</a> on CodePen.
+    A possible article with pull quotes featuring a responsive design. The lower left pull quote is an aside element while the upper right pull quote is implemented using the content attribute of an ::after pseudoelement. You can view this <a href="http://codepen.io/adobe/full/oDLwm">demo</a> on CodePen.
   </figcaption>
 </figure>
 
