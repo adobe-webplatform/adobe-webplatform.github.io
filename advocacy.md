@@ -1,6 +1,6 @@
 ---
 layout: page
-title: advocacy
+title: Advocacy
 permalink: /advocacy/
 bg: da727e
 ---
