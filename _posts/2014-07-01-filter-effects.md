@@ -60,6 +60,7 @@ There are a variety of resources on the web for learning about filter effects. P
 [SVG Filters on Text Using Raphael.js](http://css-tricks.com/svg-filters-on-text/){:target="_blank"}
 
 We’ll be sharing more information and updates from our [blog](http://blogs.adobe.com/webplatform/) and [Twitter](https://twitter.com/adobeweb) account.
+
 <script>
 if (Modernizr.cssfilters) {
     document.getElementById("filter-effects-image").style.display = 'none';
