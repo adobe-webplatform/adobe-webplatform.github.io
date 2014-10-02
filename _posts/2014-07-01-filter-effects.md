@@ -22,10 +22,18 @@ Or you can use SVG filters to customize your own visual effects.
 
 It's all encoded in the [Filter Effects Specification](http://www.w3.org/TR/filter-effects/){:target="_blank"}. But first, let's check out a quick example of CSS filters. Play with the slider below:
 
-<div class="filter-effects-codepen">
+<div id="filter-effects-codepen">
   <p data-height="320" data-theme-id="0" data-slug-hash="KyEpe" data-default-tab="result" class='codepen'>See the Pen <a href='http://codepen.io/adobe/pen/KyEpe/'>CSS Filters Example</a> by Adobe Web Platform (<a href='http://codepen.io/adobe'>@adobe</a>) on <a href='http://codepen.io'>CodePen</a>.</p>
   <script async src="//codepen.io/assets/embed/ei.js"></script>
 </div>
+<figure id="filter-effects-image">
+  <a href="http://codepen.io/adobe/pen/KyEpe/">
+  <center><img src="/img/filters/filter-demo-screenshot.png" alt="CSS Filters Example"></img></center>
+  </a>
+  <figcaption>
+    Different filters are applied on different section of the image. You can use a <a href="http://caniuse.com/#feat=css-filters" target="_blank">filters-effects-enabled browser</a> to view this <a href="http://codepen.io/adobe/pen/KyEpe/">demo</a> on CodePen.
+  </figcaption>
+</figure>
 
 ##When can I use it?
 
@@ -52,3 +60,10 @@ There are a variety of resources on the web for learning about filter effects. P
 [SVG Filters on Text Using Raphael.js](http://css-tricks.com/svg-filters-on-text/){:target="_blank"}
 
 We’ll be sharing more information and updates from our [blog](http://blogs.adobe.com/webplatform/) and [Twitter](https://twitter.com/adobeweb) account.
+<script>
+if (Modernizr.cssfilters) {
+    document.getElementById("filter-effects-image").style.display = 'none';
+} else {
+    document.getElementById("filter-effects-codepen").style.display = 'none';
+}
+</script>
