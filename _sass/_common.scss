@@ -1,0 +1,355 @@
+/* Contents
+ * * Layout
+ * * Typography
+ * * Color & Decoration
+ * * Images & Background Images
+ */
+
+@mixin halftone($color, $image: 'inherit') {
+  background: $color;
+  @if $image != 'inherit' {
+    background: url($image), url('/img/halftone.png');
+  } @else {
+    background: linear-gradient($color, $color), url('/img/halftone.png');
+  }
+  background-blend-mode: multiply;
+}
+
+/* Layout */
+html, body { width: 100%; height: 100%; }
+
+$homeFontSize: 1.2rem;
+
+.header {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 2rem 0 2rem 0;
+  &.home {
+
+    .logo {
+      height: $homeFontSize * 10 / 3;
+      max-width: $homeFontSize * 10 / 3; /* fix buggy width: auto behavior */
+      margin: 0 1rem 0.4rem 0;
+      float: left;
+    }
+    .title {
+      float: left;
+      .team, .byline {
+        margin: 0;
+      }
+    }
+    .nav {
+      display: none;
+      float: right;
+      margin: $homeFontSize $homeFontSize $homeFontSize * 4 / 3 0;
+      li {
+        margin-left: 1em;
+        &:first-child {
+          margin-left: 0;
+        }
+        display: inline-block;
+      }
+    }
+    &::after {
+      content: '';
+      display: table;
+      clear: both;
+    }
+    @media (min-width: 550px) {
+      padding-top: 4rem;
+      .nav { display: inline-block; }
+    }
+  }
+  &.page {
+    &.small {
+    }
+    &:not(.small) h1 {
+      display: none;
+      @media screen and (min-height: 430px) {
+        /* Header is about 430px tall when h1 is 3rem */
+        display: block;
+      }
+    }
+  }
+  .hero {
+    width: 100%;
+    max-width: 320px;
+    display: block;
+    margin: 0 auto;
+    @media screen and (min-height: 430px) {
+      max-width: 420px;
+    }
+  }
+  &.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+  }
+}
+
+.home-nav {
+  display: block;
+  position: absolute;
+  padding: .8rem 1rem 1rem;
+  width: 2rem;
+  height: 2rem;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  @media screen and (min-width: 700px) {
+    /* Place on top only if it won't overlay text */
+    position: fixed;
+    z-index: 3;
+  }
+}
+
+/* For large enough screens, enable a fixed-style header */
+@media screen and (min-width: 500px) and (min-height: 500px) {
+  .header:not(.fixed) {
+    visibility: hidden;
+  }
+  .header.fixed {
+    display: block;
+  }
+  .footer, .content {
+    position: relative;
+    z-index: 2;
+    /* hardware accelerate for smooth paint while device scrolling */
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+  }
+}
+
+.footer {
+    padding: 40px 0 60px;
+    h3 { width: 100px; }
+}
+
+.content {
+  width: 100%;
+  padding: 2rem 0 4rem;
+  /* prevent content overflow from causing side-scroll */
+  overflow: hidden;
+}
+
+.wrap {
+  max-width: 960px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.page .wrap {
+  max-width: 600px;
+}
+
+.pad {
+  padding: 0 20px;
+}
+
+.posts {
+  margin: 40px auto 0 auto;
+  text-align: left;
+  width: 945px;
+  max-width: 100%;
+  /* center align the posts, leaving a couple extra pixels */
+  @media screen and (max-width: 945px) {
+    width: 630px;
+  }
+  @media screen and (max-width: 630px) {
+    width: 315px;
+  }
+}
+
+.post {
+  width: 300px;
+  height: 200px;
+  margin: 10px 6px;
+  display: inline-block;
+  box-shadow: 1px 2px 6px rgba(0,0,0,0.5);
+  position: relative;
+  & > a {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+  img {
+    width: 160px;
+    height: 100px;
+    padding: 40px 70px 60px;
+  }
+  h2 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* Typography & Vertical Spacing */
+body {
+  font-family: "source-sans-pro", sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.44;
+}
+
+.header {
+  &.home {
+    font-size: $homeFontSize;
+    line-height: 1;
+    h1 {
+      font-size: 2em;
+    }
+  }
+  &.page h1 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 4.5rem;
+    line-height: 0.88;
+    @media screen and (max-width: 500px) {
+      font-size: 3rem;
+    }
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 1rem 0;
+  line-height: 1;
+}
+
+p, code, pre, blockquote {
+  margin: 1rem 0;
+}
+
+figure {
+  margin: 2rem 0;
+}
+
+figcaption {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+iframe {
+  margin: 1rem 0;
+}
+
+ol, ul {
+  margin: 1rem 3rem;
+  &.flush {
+    list-style: none;
+    margin: 1rem 0;
+  }
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.4rem;
+}
+
+.footer {
+  font-size: 0.875rem;
+  h3 {
+  font-size: 1.125rem;
+  font-weight: normal;
+  padding-bottom: 6px;
+  margin-bottom: 12px;
+  }
+}
+
+.home .content h1 {
+  @media screen and (max-width: 630px) {
+    text-align: center;
+  }
+}
+
+.post {
+  text-align: center;
+}
+
+/* Color & Decoration */
+$headerColor: #000;
+$color: #333;
+$linkcolor: #0074d9;
+
+$bgcolor: #fff;
+$offbgcolor: #eae9e5;
+
+$footercolor: $bgcolor;
+$footerbgcolor: $color;
+
+body {
+  color: $color;
+  fill: $color;
+  -webkit-font-smoothing: antialiased;
+}
+
+.content {
+  background-color: $bgcolor;
+}
+
+a {
+  text-decoration: none;
+  color: $linkcolor;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.post a {
+  color: $color;
+  text-decoration: none;
+}
+
+.header {
+  &.home {
+    h1, a, p { color: black; }
+  }
+  &.page {
+    h1 {
+      color: white;
+      text-shadow: 2px 2px 2px #333;
+    }
+  }
+}
+
+.home-nav {
+  background: rgba(255, 255, 255, 0.4);
+}
+
+.footer {
+  background: $footerbgcolor;
+  color: $footercolor;
+  h3 {
+    border-bottom: 1px solid $footercolor;
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+.post {
+  background: $offbgcolor;
+}
+
+/* Images & Background Images */
+
+.header.home {
+  @include halftone($offbgcolor, '/img/trianglify-background.svg')
+}

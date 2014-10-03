@@ -1,0 +1,15 @@
+/* Contents
+ * * Layout
+ * * Typography
+ * * Color & Decoration
+ * * Images & Background Images
+ */
+
+/* Layout */
+.filter-effects-codepen iframe {
+  /* This breakpoint should correspond to the one defined in the CodePen, so
+     that when the CodePen changes its layout, the iframe height is updated. */
+  @media (max-width: 590px) {
+    height: 215px;
+  }
+}
