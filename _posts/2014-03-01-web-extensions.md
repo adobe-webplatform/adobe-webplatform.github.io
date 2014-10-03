@@ -34,7 +34,6 @@ h2 {
     Example for using custom properties
 </figcaption>
 
-
 ##When can I use it?
 
 CSS Custom Properties is now supported in Firefox, and it will be available in WebKit soon. For a view of current and upcoming browser support, check out [caniuse.com](http://caniuse.com/#search=cascading variables){:target="_blank"}.
