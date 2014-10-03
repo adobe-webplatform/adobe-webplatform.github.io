@@ -1,3 +1,4 @@
+/* Common Styling */
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code,
@@ -343,7 +344,14 @@ a {
   background: url("/img/trianglify-background.svg"), url("/img/halftone.png");
   background-blend-mode: multiply; }
 
-/* Page Specific CSS */
+/* Page-Specific Styling */
+/* Contents
+ * * Layout
+ * * Typography
+ * * Color & Decoration
+ * * Images & Background Images
+ */
+/* Layout */
 .filter-effects-codepen iframe {
   /* This breakpoint should correspond to the one defined in the CodePen, so
      that when the CodePen changes its layout, the iframe height is updated. */ }
