@@ -18,18 +18,6 @@ jekyll serve --watch
 
 The site will be available at `localhost:4000`.
 
-If you are working with the css files, you will need [sass](http://sass-lang.com).
-
-```
-gem install sass
-```
-
-To compile css (and watch for updates)
-
-```
-sass --watch css
-```
-
 For more detailed instructions, see the [Content Guidelines][content-guidelines].
 
 ## Writing Content
@@ -37,6 +25,10 @@ For more detailed instructions, see the [Content Guidelines][content-guidelines]
 Each project is a post in the `_posts` directory, written in Markdown and processed through Kramdown. Check out the previous projects for examples. You will need an svg icon for each project. Bear can help you out, and guidelines are in `design/webplatform-feature-icons.svg`.
 
 For more detailed instructions, see the [Content Guidelines][content-guidelines].
+
+## Writing CSS
+
+Our CSS is written using [SASS][sass]. Jekyll automatically runs SASS, which compiles `scss` files into `css` files. The main `scss` file is `css/main.scss`, which includes partials from the `_sass` directory. This is a typical configuration for [Jekyll / SASS Integration][jekyll-sass].
 
 ## Helpful Documents
 
@@ -47,3 +39,5 @@ For more detailed instructions, see the [Content Guidelines][content-guidelines]
 [page-background]: https://docs.google.com/a/601t.com/document/d/138bQxJiOTA6qf3i8onAuWv6FaCzutgDEemBtXM7xeLk/
 [work-items]: https://docs.google.com/a/601t.com/spreadsheets/d/1FXeY492Jt-YgZjF14dmM6FfyDgjHLpc_MSc853HySwg/
 [content-guidelines]: https://docs.google.com/a/601t.com/document/d/1TweYWVP9CZASX_iA2NraVVvjUuG2Cx9uAZwUqn4WEng/
+[jekyll-sass]: http://jekyllrb.com/docs/assets/#sassscss
+[sass]: http://sass-lang.com
