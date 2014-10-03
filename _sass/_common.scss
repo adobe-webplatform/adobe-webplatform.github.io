@@ -367,7 +367,7 @@ $no-support-color: desaturate(#f0614a, 25);
   table-layout: fixed;
   width: 100%;
   @for $i from 5 through 8 {
-      .row-#{$i} { width: 100%/$i; }
+      .col-#{$i} { width: 100%/$i; }
   }
   td {
     box-sizing: border-box;
