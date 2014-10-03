@@ -27,7 +27,7 @@ On this site, we want to give a broad view into our different projects. Some pro
 Our emphasis is on new expression on the web, connected with the technology that makes it possible. For deeper technical exploration, we'll bounce to other resources, like [CodePen](http://codepen.io/) or [our team blog](http://blogs.adobe.com/webplatform/).
 
 ## Work with us!
-If you have feedback on this site, or want to team up to create a more expressive web, we'd love to hear from you. We want to be a conduit for designers and developers with big ideas of what the web is and can be.
+If you have feedback on this site, or want to team up to create a more expressive web, we'd love to hear from you. We want to [advocate]({{site.baseurl}}/advocacy/) for designers and developers with big ideas of what the web is and can be.
 
   * Twitter: [@adobeweb](http://twitter.com/adobeweb/)
   * Email: [webplatform@adobe.com](mailto:webplatform@adobe.com?subject=Hi, Web Platform Team!)
