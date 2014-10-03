@@ -364,6 +364,11 @@ $partial-support-color: desaturate(#fccb5f, 25);
 $no-support-color: desaturate(#f0614a, 25);
 
 .browser-support {
+  table-layout: fixed;
+  width: 100%;
+  @for $i from 5 through 8 {
+      .row-#{$i} { width: 100%/$i; }
+  }
   td {
     box-sizing: border-box;
     max-height: 1em;
