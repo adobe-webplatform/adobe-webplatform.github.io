@@ -2,7 +2,8 @@
 layout: page
 title: Enable
 permalink: /enable/
-bg: da727e
+full_image: project_header/icon-beaker.svg
+bg: e2e1b9
 ---
 
 [pull-quotes]: {{ site.baseurl }}/pull-quotes/ "Pull Quotes"
