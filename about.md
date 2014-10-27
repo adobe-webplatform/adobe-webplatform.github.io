@@ -2,7 +2,8 @@
 layout: page
 title: About
 permalink: /about/
-bg: da727e
+full_image: project_header/icon-about.svg
+bg: 445a79
 ---
 
 ## About the Adobe Web Platform Team
