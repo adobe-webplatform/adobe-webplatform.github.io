@@ -1,15 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-     viewBox="70 40 160 100" style="enable-background:new 0 0 300 200;" xml:space="preserve">
-<g id="Drop_Caps">
-    <rect x="137" y="45" style="fill:#AC6C82;" width="50" height="7"/>
-    <rect x="137" y="57" style="fill:#AC6C82;" width="58" height="7"/>
-    <rect x="137" y="69" style="fill:#AC6C82;" width="63" height="7"/>
-    <rect x="104" y="81" style="fill:#AC6C82;" width="81" height="7"/>
-    <rect x="104" y="93" style="fill:#AC6C82;" width="89" height="7"/>
-    <rect x="104" y="105" style="fill:#AC6C82;" width="74" height="7"/>
-    <rect x="104" y="116" style="fill:#AC6C82;" width="87" height="7"/>
-    <path style="fill:#455C7B;" d="M122.946,69.873h-8.841l-1.555,6.704H104L113.619,45h10.105l9.619,31.577h-8.842L122.946,69.873z"/>
-</g>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 100">
+<path fill="#455C7B" d="M37,5.5h14.3c14.7,0,24.9,6.8,24.9,24S66,53.9,52,53.9H37V5.5z M50.5,43.6c7,0,12.5-2.8,12.5-14.1c0-11.3-5.5-13.7-12.5-13.7h-0.7v27.8H50.5z"/>
+<rect x="77.8" y="5.5" fill="#AC6C82" width="44.2" height="8"/>
+<rect x="82" y="19" fill="#AC6C82" width="44" height="8"/>
+<rect x="82" y="32.4" fill="#AC6C82" width="43" height="8"/>
+<rect x="78.8" y="45.9" fill="#AC6C82" width="42" height="8"/>
+<rect x="37" y="59.34" fill="#AC6C82" width="79" height="8"/>
+<rect x="37" y="72.8" fill="#AC6C82" width="87" height="8"/>
 </svg>
