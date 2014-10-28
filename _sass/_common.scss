@@ -127,6 +127,20 @@ $homeFontSize: 1.2rem;
     h3 { width: 100px; }
 }
 
+.footer table {
+    margin-bottom: -6px;
+}
+
+.footer td {
+    padding: 0 1rem 0 0;
+}
+
+.footer img {
+    width: 1.6rem;
+    height: 1.6rem;
+    margin: 0 .8rem 0 0;
+}
+
 .content {
   width: 100%;
   padding: 2rem 0 4rem;
@@ -269,7 +283,7 @@ h4 {
   font-size: 1.125rem;
   font-weight: normal;
   padding-bottom: 6px;
-  margin-bottom: 12px;
+  margin-bottom: -4px;
   }
 }
 
