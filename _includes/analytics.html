@@ -25,7 +25,7 @@
 
     // abandon if no active link or link within domain or not clicked from production server
     var link = $(e.target).closest("a");
-    if (link.length != 1 || baseURI == link[0].host|| baseURI !=  {{ site.url | remove: "http://" }} return;
+    if (link.length != 1 || baseURI == link[0].host|| baseURI !=  "{{ site.url | remove: 'http://' }}") return;
 
     // cancel event and record outbound link
     e.preventDefault();
