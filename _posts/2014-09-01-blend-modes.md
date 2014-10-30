@@ -28,6 +28,9 @@ The Adobe Web Platform team is working on bringing blend modes to the HTML world
 
 ##When can I use it?
 
+{% assign browser_support = site.data.browser_support.blend-modes %}
+{% include browser-support.html %}
+
 The [background-blend-mode](https://developer.mozilla.org/en-US/docs/Web/CSS/background-blend-mode) CSS property is available now in Safari, Firefox, Chrome, and Opera.
 
 The [mix-blend-mode](https://developer.mozilla.org/en-US/docs/Web/CSS/mix-blend-mode) CSS property is available now in Safari and Firefox. In Chrome and Opera, it is behind an experimental features flag.

@@ -37,6 +37,9 @@ It's all encoded in the [Filter Effects Specification](http://www.w3.org/TR/filt
 
 ##When can I use it?
 
+{% assign browser_support = site.data.browser_support.filters %}
+{% include browser-support.html %}
+
 You can use filters now. Just make sure you have a less pretty fallback when they aren't available.
 
 [CSS filters](http://caniuse.com/#feat=css-filters){:target="_blank"} are available -webkit prefixed in Safari and Chrome.

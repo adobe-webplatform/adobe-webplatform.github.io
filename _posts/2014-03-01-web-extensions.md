@@ -36,6 +36,9 @@ h2 {
 
 ##When can I use it?
 
+{% assign browser_support = site.data.browser_support.css-variables %}
+{% include browser-support.html %}
+
 CSS Custom Properties is now supported in Firefox, and it will be available in WebKit soon. For a view of current and upcoming browser support, check out [caniuse.com](http://caniuse.com/#search=cascading variables){:target="_blank"}.
 
 
