@@ -127,12 +127,9 @@ $homeFontSize: 1.2rem;
     h3 { width: 100px; }
 }
 
-.footer table {
-    margin-bottom: -6px;
-}
-
-.footer td {
-    padding: 0 1rem 0 0;
+.column {
+    display: inline-block;
+    margin-right: 1em;
 }
 
 .footer img {
