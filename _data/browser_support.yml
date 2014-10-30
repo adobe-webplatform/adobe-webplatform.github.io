@@ -6,3 +6,21 @@ shapes:
   - { name: Opera, support: support, version: 24 }
   - { name: iOS, support: support, version: 8 }
   - { name: Android, support: no-support, version: 4.4 }
+
+mask:
+  - { name: Internet Explorer, support: no-support, version: 11 }
+  - { name: Chrome, support: partial-support, version: 38 }
+  - { name: Firefox, support: partial-support, version: 33 }
+  - { name: Safari, support: partial-support, version: 5.1 }
+  - { name: Opera, support: partial-support, version: 25 }
+  - { name: iOS, support: partial-support, version: 7.1 }
+  - { name: Android, support: partial-support, version: 4.4 }
+
+clip-path:
+  - { name: Internet Explorer, support: no-support, version: 11 }
+  - { name: Chrome, support: partial-support, version: 38 }
+  - { name: Firefox, support: partial-support, version: 33 }
+  - { name: Safari, support: partial-support, version: 7 }
+  - { name: Opera, support: partial-support, version: 25 }
+  - { name: iOS, support: partial-support, version: 7.1 }
+  - { name: Android, support: partial-support, version: 4.4 }
