@@ -23,18 +23,19 @@
     // abandon if link already aborted or analytics is not available
     if (e.isDefaultPrevented() || typeof ga !== "function") return;
 
-    // abandon if no active link or link within domain
+    // abandon if no active link or link within domain or not clicked from production server
     var link = $(e.target).closest("a");
-    if (link.length != 1 || baseURI == link[0].host) return;
+    if (link.length != 1 || baseURI == link[0].host|| baseURI !=  "{{ site.url | remove: 'http://' }}") return;
 
     // cancel event and record outbound link
     e.preventDefault();
     var href = link[0].href;
+    var refpage = link[0].baseURI;
     ga('send', {
       'hitType': 'event',
       'eventCategory': 'outbound',
       'eventAction': 'link',
-      'eventLabel': href,
+      'eventLabel':  refpage +' > '+ href,
       'hitCallback': loadPage
     });
 
