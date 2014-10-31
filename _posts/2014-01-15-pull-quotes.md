@@ -38,7 +38,7 @@ Much of what you need to create pull-quotes on the web today is already in place
   </figcaption>
 </figure>
 
-Besides the list above, there's a new trick available that can help pull quotes blend better with your articles. By using CSS Shapes you can forget about rectangular pull quotes and use any shape you consider appropiate for each article. You can see a [live demo][demo-shapes]{:target="_blank"} of this feature on Adobe's CodePen page.
+Besides the list above, there's a new trick available that can help pull quotes blend better with your articles. By using CSS Shapes you can forget about rectangular pull quotes and use any shape you consider appropriate for each article. You can see a [live demo][demo-shapes]{:target="_blank"} of this feature on Adobe's CodePen page.
 
 Pull quotes integrate well with modern layout modules, such as multicolumn and regions. Using [CSS Regions][regions] you can separate the pull quote content from the article flow and define a separate region chain to display the pull quotes, thus achieving a superior, responsive page layout.
 

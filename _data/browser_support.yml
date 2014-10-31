@@ -6,3 +6,88 @@ shapes:
   - { name: Opera, support: support, version: 24 }
   - { name: iOS, support: support, version: 8 }
   - { name: Android, support: no-support, version: 4.4 }
+
+blend-modes:
+  - { name: Internet Explorer, support: no-support, version: 11 }
+  - { name: Chrome, support: partial-support, version: 37 }
+  - { name: Firefox, support: partial-support, version: 32 }
+  - { name: Safari, support: support, version: 7.1 }
+  - { name: Opera, support: partial-support, version: 24 }
+  - { name: iOS, support: support, version: 8 }
+  - { name: Android, support: no-support, version: 4.4 }
+
+svg:
+  - { name: Internet Explorer, support: support, version: 9 }
+  - { name: Chrome, support: support, version: 31 }
+  - { name: Firefox, support: support, version: 31 }
+  - { name: Safari, support: support, version: 5.1 }
+  - { name: Opera, support: support, version: 24 }
+  - { name: iOS, support: support, version: 7.1 }
+  - { name: Android, support: support, version: 4.4 }
+
+filters:
+  - { name: Internet Explorer, support: no-support, version: 11 }
+  - { name: Chrome, support: support, version: 31 }
+  - { name: Firefox, support: partial-support, version: 31 }
+  - { name: Safari, support: support, version: 6.1 }
+  - { name: Opera, support: support, version: 24 }
+  - { name: iOS, support: support, version: 7.1 }
+  - { name: Android, support: support, version: 4.4 }
+
+regions:
+  - { name: Internet Explorer, support: partial-support, version: 10 }
+  - { name: Chrome, support: no-support, version: 38 }
+  - { name: Firefox, support: no-support, version: 33 }
+  - { name: Safari, support: support, version: 6.1 }
+  - { name: Opera, support: no-support, version: 25 }
+  - { name: iOS, support: support, version: 7.1 }
+  - { name: Android, support: no-support, version: 4.4 }
+
+css-variables:
+  - { name: Internet Explorer, support: no-support, version: 11 }
+  - { name: Chrome, support: no-support, version: 38 }
+  - { name: Firefox, support: support, version: 33 }
+  - { name: Safari, support: no-support, version: 8 }
+  - { name: Opera, support: no-support, version: 25 }
+  - { name: iOS, support: no-support, version: 8.1 }
+  - { name: Android, support: no-support, version: 4.4 }
+
+# Individual properties
+
+# Blend Modes
+background-blend-mode:
+  - { name: Internet Explorer, support: no-support, version: 11 }
+  - { name: Chrome, support: support, version: 37 }
+  - { name: Firefox, support: support, version: 32 }
+  - { name: Safari, support: support, version: 7.1 }
+  - { name: Opera, support: support, version: 24 }
+  - { name: iOS, support: support, version: 8 }
+  - { name: Android, support: no-support, version: 4.4 }
+
+mix-blend-mode:
+  - { name: Internet Explorer, support: no-support, version: 11 }
+  - { name: Chrome, support: no-support, version: 37 }
+  - { name: Firefox, support: support, version: 32 }
+  - { name: Safari, support: support, version: 7.1 }
+  - { name: Opera, support: no-support, version: 24 }
+  - { name: iOS, support: support, version: 8 }
+  - { name: Android, support: no-support, version: 4.4 }
+
+isolation:
+  - { name: Internet Explorer, support: no-support, version: 11 }
+  - { name: Chrome, support: no-support, version: 37 }
+  - { name: Firefox, support: no-support, version: 32 }
+  - { name: Safari, support: support, version: 7.1 } 
+  - { name: Opera, support: no-support, version: 24 }
+  - { name: iOS, support: support, version: 8 }
+  - { name: Android, support: no-support, version: 4.4 }
+
+# Drop Caps (initial-letter)
+initial-letter:
+  - { name: Internet Explorer, support: no-support, version: 11 }
+  - { name: Chrome, support: no-support, version: 37 }
+  - { name: Firefox, support: no-support, version: 32 }
+  - { name: Safari, support: partial-support, version: 7.1 }
+  - { name: Opera, support: no-support, version: 24 }
+  - { name: iOS, support: no-support, version: 8 }
+  - { name: Android, support: no-support, version: 4.4 }
